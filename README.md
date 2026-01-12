@@ -3,7 +3,7 @@
 This repo contains practical work samples focused on data hygiene, standards, validation, and operations documentation - built to reduce errors, improve consistency, and keep workflows reliable.
 
 ## Start Here
-- Data Integrity: - Data Integrity: [Zapier reliability and backup verification (PDF)](./Systems/Zapier%20Operations%20Overview%20-%20Relocation%20Roadmaps.pdf)
+- Data Integrity: [Zapier reliability and backup verification (PDF)](./Systems/Zapier%20Operations%20Overview%20-%20Relocation%20Roadmaps.pdf)
 - Ops Documentation: [QA test cases and validation checklist (XLSX - download)](https://github.com/dbfl2026/db-work-samples/raw/main/QA/RR%20-%20Test%20Cases.xlsx)
 
 ## What I do well in this area

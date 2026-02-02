@@ -5,7 +5,7 @@ This workflow uses our RR Source & Data Integrity Auditor GPT to audit relocatio
 ## Quick overview
 User runs our auditor GPT. Findings go into a Sheets log as TSV. Zapier picks up each new row and creates a new task in a Notion database. The Notion page ID is sent back in Sheets for traceability. Editors use Notion as a task list.
 
-See `samples/sample_output.json` and `samples/sample_output.csv` for examples.
+See [`samples/sample_output.json`](samples/sample_output.json) and [`samples/sample_output.csv`](samples/sample_output.csv) for examples.
 
 ## How it works
 You run the auditor and paste one of three inputs: a guide section (or part of one), a structured table, or a list of sources used in a guide.

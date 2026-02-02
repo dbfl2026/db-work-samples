@@ -29,7 +29,7 @@ A Zapier workflow uses the Google Sheets trigger "New Spreadsheet Row" to create
 A separate Zapier workflow monitors automation failures using the Zapier Manager "New Zap Error" trigger. Zap errors are written to a `zapier_error_log` tab in Google Sheets, including the Zap name, error message, truncated context, and a link to the Zap editor.
 
 ## Design goals
-- Keep the process simple and traceable
 - Find issues early, before going through our Fact - Checker & Red Team Auditor prompt
 - Maintain an audit history in one place
-- Use Notion just for task lists
+- Create a task list system in for editors
+- Keep the process simple and traceable

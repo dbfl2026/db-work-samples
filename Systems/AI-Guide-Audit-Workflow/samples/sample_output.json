@@ -1,1 +1,23 @@
-
+{
+  "audit_id": "AUD-20260202-001",
+  "doc_name": "Phuket, Thailand Relocation Guide",
+  "doc_link": "https://drive.google.com/drive/u/0/folders/1lOAQnvSFsFcBg8qR_WdV0eGJWKhV1Wwg",
+  "findings": [
+    {
+      "audit_id": "AUD-20260202-001",
+      "finding_id": "F-000001",
+      "doc_name": "Phuket, Thailand Relocation Guide",
+      "doc_link": "https://drive.google.com/drive/u/0/folders/1lOAQnvSFsFcBg8qR_WdV0eGJWKhV1Wwg",
+      "finding_summary": "The document’s freshness metadata is internally inconsistent and date formats are ambiguous across Updated (Q1 2026), As-of Date (12/01/26), and Next Review (06/1/26).",
+      "severity": "Blocking",
+      "status": "New"
+    },
+    {
+      "audit_id": "AUD-20260202-001",
+      "finding_id": "F-000002",
+      "doc_name": "Phuket, Thailand Relocation Guide",
+      "doc_link": "https://drive.google.com/drive/u/0/folders/1lOAQnvSFsFcBg8qR_WdV0eGJWKhV1Wwg",
+      "finding_summary": "The “90-Day Validity” claim lacks an anchor date and cannot be reconciled to the document’s stated update/review timeline.",
+      "severity": "Blocking",
+      "status": "New"
+    },

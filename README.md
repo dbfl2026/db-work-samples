@@ -5,15 +5,14 @@ This repo contains practical work samples from Relocation Roadmaps focused on AI
 ## Start Here
 
 Best single example: the AI Guide Audit Workflow shows the full chain from audit output to tracking and review across Google Sheets, Zapier, and Notion.
-- AI Guide Audit Workflow - end-to-end overview: [Systems/AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
 
-- Data Integrity - Zapier reliability and backup verification (PDF preview): [Systems/Zapier Operations Overview.pdf](Systems/Zapier Operations Overview.pdf)
-- Data Integrity - Zapier reliability and backup verification (DOCX download): [Systems/Zapier Operations Overview.docx](Systems/Zapier Operations Overview.docx)
+- AI Guide Audit Workflow - end-to-end overview: [Systems/AI-Guide-Audit-Pipeline](Systems/AI-Guide-Audit-Pipeline)
 
-- Ops Documentation - QA test cases and validation checklist (CSV preview): [QA/RR - Test Cases.csv](QA/RR - Test Cases.csv)
-- Ops Documentation - QA test cases and validation checklist (XLSX download): [QA/RR - Test Cases.xlsx](QA/RR - Test Cases.xlsx)
-  
-Best single example: the AI Guide Audit Workflow shows the full chain from audit output to tracking and review across Google Sheets, Zapier, and Notion.
+- Data Integrity - Zapier reliability and backup verification (PDF preview): [Zapier Operations Overview (PDF)](Systems/Zapier%20Operations%20Overview.pdf)  
+- Data Integrity - Zapier reliability and backup verification (DOCX download): [Zapier Operations Overview (DOCX)](Systems/Zapier%20Operations%20Overview.docx)
+
+- Ops Documentation - QA test cases and validation checklist (CSV preview): [RR - Test Cases (CSV)](QA/RR%20-%20Test%20Cases.csv)  
+- Ops Documentation - QA test cases and validation checklist (XLSX download): [RR - Test Cases (XLSX)](QA/RR%20-%20Test%20Cases.xlsx)
 
 ## What I do well in this area
 - Data cleanup and standardization (duplicates, formatting, required fields, consistency rules)
@@ -28,4 +27,4 @@ All examples come from a real project, Relocation Roadmaps (https://relocationro
 - QA artifacts: test plans, test cases, and sample bug reports
 - AI workflow examples: an evaluation scorecard and a reviewed guide section
 - Prompt system excerpts: redacted prompt templates used to produce structured output
-- Systems notes: brief documentation of live automations++
+- Systems notes: brief documentation of live automations

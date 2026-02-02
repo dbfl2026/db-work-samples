@@ -1,6 +1,6 @@
 # AI Operations and Workflow Infrastructure - Work Samples
 
-This repo contains practical work samples from Relocation Roadmaps focused on AI operations, workflow QA, data integrity, and lightweight automation support - built to keep outputs consistent and workflows traceable.
+This repo contains practical work samples from a startup project, focused on AI operations, workflow QA, data integrity, and lightweight automation support - built to keep outputs consistent and workflows traceable.
 
 ## Start Here
 

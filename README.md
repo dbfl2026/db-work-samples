@@ -3,10 +3,16 @@
 This repo contains practical work samples from Relocation Roadmaps focused on AI operations, workflow QA, data integrity, and lightweight automation support - built to keep outputs consistent and workflows traceable.
 
 ## Start Here
+Best single example: the AI Guide Audit Workflow shows the full chain from audit output to tracking and review across Google Sheets, Zapier, and Notion.
 - AI Guide Audit Workflow - end-to-end overview: [Systems/AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
-- Data Integrity - Zapier reliability and backup verification (PDF)
-- Ops Documentation - QA test cases and validation checklist (XLSX - download)
 
+- Data Integrity - Zapier reliability and backup verification (PDF preview): [PDF](Systems/Zapier Operations Overview.pdf)
+- Data Integrity - Zapier reliability and backup verification (DOCX download): [DOCX](Systems/Zapier Operations Overview.docx)
+
+
+- Ops Documentation - QA test cases and validation checklist (CSV preview): [QA/RR - Test Cases.csv](QA/RR - Test Cases.csv)
+- Ops Documentation - QA test cases and validation checklist (XLSX download): [QA/RR - Test Cases.xlsx](QA/RR - Test Cases.xlsx)
+  
 Best single example: the AI Guide Audit Workflow shows the full chain from audit output to tracking and review across Google Sheets, Zapier, and Notion.
 
 ## What I do well in this area

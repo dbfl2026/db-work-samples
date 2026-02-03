@@ -6,7 +6,7 @@ This repo contains practical work samples from a startup project, focused on AI 
 
 Best single example: the AI Guide Audit Workflow shows the full chain from audit output to tracking and review across Google Sheets, Zapier, and Notion.
 
-- AI Guide Audit Workflow - end-to-end overview: [Systems/AI-Guide-Audit-Pipeline](Systems/AI-Guide-Audit-Pipeline)
+- AI Guide Audit Workflow - end-to-end overview: [Systems/AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
 
 - Data Integrity - Zapier reliability and backup verification (PDF preview): [Zapier Operations Overview (PDF)](Systems/Zapier%20Operations%20Overview.pdf)  
 - Data Integrity - Zapier reliability and backup verification (DOCX download): [Zapier Operations Overview (DOCX)](Systems/Zapier%20Operations%20Overview.docx)

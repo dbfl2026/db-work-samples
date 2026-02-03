@@ -16,16 +16,16 @@ This repo contains practical work samples from a startup project, focused on AI 
 - Ops Documentation - QA test cases and validation checklist (XLSX download): [RR - Test Cases (XLSX)](QA/RR%20-%20Test%20Cases.xlsx)
 
 ## What I do well in this area
-- Data cleanup and standardization (duplicates, formatting, required fields, consistency rules)
-- Process documentation and SOPs that prevent errors and make work repeatable
-- Troubleshooting and root-cause notes that help teams fix issues permanently
+- Keep AI-assisted workflows consistent when inputs are messy
+- Build prompt templates, scorecards, and SOPs that reduce drift and rework
+- Maintain clean, usable data (standardization, required fields, deduping, naming conventions)
+- Troubleshoot issues and write root-cause notes so problems don’t repeat
 
-This repository includes selected work samples that demonstrate how I approach systems documentation, workflow QA, and an AI-assisted audit workflow.
-
-All examples come from a real project, Relocation Roadmaps (https://relocationroadmaps.com). They are shared to illustrate process, structure, and decision-making, not as polished deliverables.
+These samples come from a real project, Relocation Roadmaps (https://relocationroadmaps.com). They are shared to show process, structure, and decision-making, not as polished client deliverables.
 
 ## What you’ll find
+- AI audit workflow artifacts: structured outputs (TSV and JSON) and review tracking across Sheets, Zapier, and Notion
 - QA artifacts: test plans, test cases, and sample bug reports
-- AI workflow examples: an evaluation scorecard and a reviewed guide section
+- AI workflow examples: evaluation scorecards and reviewed guide sections
 - Prompt system excerpts: redacted prompt templates used to produce structured output
 - Systems notes: brief documentation of live automations

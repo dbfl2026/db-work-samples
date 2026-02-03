@@ -4,7 +4,8 @@ This repo contains practical work samples from a startup project, focused on AI 
 
 ## Start Here
 
-Best single example: the AI Guide Audit Workflow shows the full chain from audit output to tracking and review across Google Sheets, Zapier, and Notion.
+- Relocation Roadmaps - Project Summary (PDF preview): [Relocation-Roadmaps-Project-Summary.pdf](Systems/Relocation-Roadmaps-Project-Summary.pdf)
+- Relocation Roadmaps - Project Summary (DOCX download): [Relocation-Roadmaps-Project-Summary.docx](Systems/Relocation-Roadmaps-Project-Summary.docx)
 
 - AI Guide Audit Workflow - end-to-end overview: [Systems/AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
 

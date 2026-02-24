@@ -1,6 +1,6 @@
 # AI Operations and Workflow Infrastructure - Work Samples
 
-This repo contains practical work samples from a startup project, focused on AI operations, workflow QA, data integrity, and lightweight automation support - built to keep outputs consistent and workflows traceable.
+This repo contains production work samples covering AI operations, workflow QA, data integrity, and system design - built to keep outputs consistent and workflows traceable.
 
 ## Start Here
 
@@ -22,11 +22,13 @@ This repo contains practical work samples from a startup project, focused on AI 
 - Keep AI-assisted workflows consistent when inputs are messy
 - Build prompt templates, scorecards, and SOPs that reduce drift and rework
 - Maintain clean, usable data (standardization, required fields, deduping, naming conventions)
-- Troubleshoot issues and write root-cause notes so problems don’t repeat
+- Design operational systems with built-in QA and scope discipline
+- Troubleshoot issues and write root-cause notes so problems don't repeat
 
-These samples come from a real project, Relocation Roadmaps (https://relocationroadmaps.com). They are shared to show process, structure, and decision-making, not as polished client deliverables.
+The Relocation Roadmaps samples come from a real project (https://relocationroadmaps.com) and are shared to show process, structure, and decision-making, not as polished client deliverables. The Chargeback Defender samples are from a live product built and shipped in 9 days (https://guideworks.co/chargeback-defender).
 
-## What you’ll find
+## What you'll find
+- Chargeback Defender artifacts: decision calculator, dispute tracker with rate monitoring, evidence assembly guide, test cases, project conventions, and schema documentation - [Systems/Chargeback-Defender](Systems/Chargeback-Defender)
 - AI audit workflow artifacts: structured outputs (TSV and JSON) and review tracking across Sheets, Zapier, and Notion
 - QA artifacts: test plans, test cases, and sample bug reports
 - AI workflow examples: evaluation scorecards and reviewed guide sections

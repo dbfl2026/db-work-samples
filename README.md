@@ -19,11 +19,12 @@ This repo contains production work samples covering AI operations, workflow QA, 
 - Ops Documentation - QA test cases and validation checklist (XLSX download): [RR - Test Cases (XLSX)](QA/RR%20-%20Test%20Cases.xlsx)
 
 ## What I do well in this area
+What I do well in this area
 - Keep AI-assisted workflows consistent when inputs are messy
-- Build prompt templates, scorecards, and SOPs that reduce drift and rework
+- Build prompt templates and SOPs that reduce drift and rework
 - Maintain clean, usable data (standardization, required fields, deduping, naming conventions)
-- Design operational systems with built-in QA and scope discipline
-- Troubleshoot issues and write root-cause notes so problems don't repeat
+- Design operational systems and hold scope discipline through the build
+- Troubleshoot issues and document what went wrong so problems don't repeat
 
 The Relocation Roadmaps samples come from a real project (https://relocationroadmaps.com) and are shared to show process, structure, and decision-making, not as polished client deliverables. The Chargeback Defender samples are from a live product built and shipped in 9 days (https://guideworks.co/chargeback-defender).
 

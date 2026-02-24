@@ -13,7 +13,7 @@ Launch Dashboard: [guideworks.co/chargeback-defender/dashboard](https://guidewor
 
 ## Contents
 
-[Chargeback-Defender-Project-Overview.pdf](Chargeback-Defender-Project-Overview.pdf) - How the project was built,
+[Chargeback Defender Project Overview.pdf](Chargeback%20Defender%20Project%20Overview.pdf) - How the project was built,
 what each component does, the QA process used, and what this work
 demonstrates for operations and AI operations roles.
 
@@ -28,7 +28,7 @@ that flags chargeback rate against processor thresholds with a
 days-to-breach trend indicator. Shows threshold monitoring and
 operational tracking design.
 
-[CB-Test-Cases.docx](CB-Test-Cases.docx) - Three realistic dispute scenarios (Stripe fraud
+[CB-Test-Cases.pdf](CB-Test-Cases.pdf) - Three realistic dispute scenarios (Stripe fraud
 claim, Shopify product-not-received, PayPal subscription cancellation)
 that validate each lane of the workflow. Shows QA thinking and test
 design for operational systems.

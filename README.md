@@ -7,7 +7,7 @@ This repo contains production work samples covering AI operations, workflow QA, 
 - Chargeback Defender - E-commerce dispute operations kit: [Systems/Chargeback-Defender](Systems/Chargeback-Defender)
 - Chargeback Defender artifacts - decision calculator, dispute tracker with rate monitoring, evidence assembly guide, test cases, project conventions, and schema documentation - [Systems/Chargeback-Defender](Systems/Chargeback-Defender)
   
-- HubSpot CRM - messy data import and cleanup case study: HubSpot CRM - messy data import and cleanup case study: [HubSpot-CRM-Cleanup.md](Systems/HubSpot-CRM-Cleanup.md)
+- HubSpot CRM - messy data import and cleanup case study: HubSpot CRM - messy data import and cleanup case study: [HubSpot-CRM-Data-Cleanup-Case-Study.md](Systems/HubSpot-CRM-Data-Cleanup-Case-Study.md)
 
 - Relocation Roadmaps - Project Summary (PDF preview): [Relocation-Roadmaps-Project-Summary.pdf](Systems/Relocation-Roadmaps-Project-Summary.pdf)
 - Relocation Roadmaps - Project Summary (DOCX download): [Relocation-Roadmaps-Project-Summary.docx](Systems/Relocation-Roadmaps-Project-Summary.docx)

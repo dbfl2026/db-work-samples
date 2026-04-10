@@ -17,9 +17,9 @@ This repo contains work samples in AI operations, workflow QA, data integrity, a
 - Troubleshoot operational issues, identify root causes, and document fixes so problems do not repeat
 - Design practical workflow systems and carry them through to completion
 
-The Relocation Roadmaps samples come from a real project ([Relocation Roadmaps](https://relocationroadmaps.com)) and are shared to show process, structure, and decision-making, not as polished client deliverables.
+The Relocation Roadmaps samples come from a real project, [Relocation Roadmaps](https://relocationroadmaps.com), and are shared to show process, structure, and decision-making, not as polished client deliverables.
 
-The Chargeback Defender samples are from a live product built and shipped in 9 days ([Chargeback Defender](https://guideworks.co/chargeback-defender)).
+The Chargeback Defender samples are from a live product built and shipped in 9 days, [Chargeback Defender](https://guideworks.co/chargeback-defender).
 
 ## What you'll find
 

@@ -1,4 +1,6 @@
-# HubSpot Free CRM: Messy Data Import and Cleanup
+# HubSpot CRM Data Cleanup Case Study
+
+Imported a messy contact dataset into HubSpot Free CRM, cleaned and standardized records, documented free-tier limits, and built a workaround to keep secondary emails during merges.
 
 **Exercise:** Imported a 51-contact test dataset into HubSpot Free CRM and cleaned it up using only free-tier features. The dataset had duplicates, bad formatting, invalid emails, typo domains, missing fields, and junk rows.
 

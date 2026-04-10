@@ -17,13 +17,14 @@ This repo contains work samples in AI operations, workflow QA, data integrity, a
 - Troubleshoot operational issues, identify root causes, and document fixes so problems do not repeat
 - Design practical workflow systems and carry them through to completion
 
-The Relocation Roadmaps samples come from a real project, [Relocation Roadmaps](https://relocationroadmaps.com), and are shared to show process, structure, and decision-making, not as polished client deliverables.
+The Relocation Roadmaps samples come from a real project - [Relocation Roadmaps](https://relocationroadmaps.com) - and are shared to show process, structure, and decision-making, not as polished client deliverables.
 
-The Chargeback Defender samples are from a live product built and shipped in 9 days, [Chargeback Defender](https://guideworks.co/chargeback-defender).
+The Chargeback Defender samples are from a live product built and shipped in 9 days - [Chargeback Defender](https://guideworks.co/chargeback-defender).
 
 ## What you'll find
 
 - Chargeback Defender artifacts: decision calculator, dispute tracker with rate monitoring, evidence assembly guide, test cases, project conventions, and schema documentation - [Systems/Chargeback-Defender](Systems/Chargeback-Defender)
+- Relocation Roadmaps artifacts: project summary, reviewed guide sections, evaluation scorecards, workflow notes, and redacted prompt excerpts showing how structured output was produced and checked
 - AI audit workflow artifacts: structured outputs (TSV and JSON) and review tracking across Sheets, Zapier, and Notion
 - QA artifacts: test plans, test cases, and sample bug reports
 - AI workflow examples: evaluation scorecards and reviewed guide sections

@@ -24,7 +24,7 @@ The Chargeback Defender samples are from a live product built and shipped in 9 d
 ## What you'll find
 
 - Chargeback Defender artifacts: decision calculator, dispute tracker with rate monitoring, evidence assembly guide, test cases, project conventions, and schema documentation - [Systems/Chargeback-Defender](Systems/Chargeback-Defender)
-- Relocation Roadmaps artifacts: project summary, reviewed guide sections, evaluation scorecards, workflow notes, and redacted prompt excerpts showing how structured output was produced and checked
+- Relocation Roadmaps artifacts: project summary, reviewed guide sections, evaluation scorecards, workflow notes, and redacted prompt excerpts showing how structured output was produced and checked - [Systems/Relocation-Roadmaps](Systems/Relocation-Roadmaps)
 - AI audit workflow artifacts: structured outputs (TSV and JSON) and review tracking across Sheets, Zapier, and Notion
 - QA artifacts: test plans, test cases, and sample bug reports
 - AI workflow examples: evaluation scorecards and reviewed guide sections

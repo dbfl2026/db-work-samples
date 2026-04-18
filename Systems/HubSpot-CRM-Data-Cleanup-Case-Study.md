@@ -4,7 +4,7 @@ Imported a messy contact dataset into HubSpot Free CRM, cleaned and standardized
 
 **Exercise:** Imported a 51-contact test dataset into HubSpot Free CRM and cleaned it up using only free-tier features. The dataset had duplicates, bad formatting, invalid emails, typo domains, missing fields, and junk rows.
 
-![Data cleanup breakdown](Screenshots/Cleanup_Results.png)
+![Data cleanup breakdown](Screenshots/Cleanup&Results.png)
 
 ## The numbers
 

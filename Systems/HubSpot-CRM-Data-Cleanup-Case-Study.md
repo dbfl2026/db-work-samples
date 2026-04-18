@@ -69,7 +69,7 @@ Of the 5 invalid-email rows HubSpot rejected, 4 were clearly junk (`test@test.co
 
 - **Data Quality Status** (custom property, dropdown). Values: Clean, Needs Verification, Incomplete, Do Not Contact. Turns one-off notes into a filterable field, so flagged records can be pulled into a review list later instead of rotting in timeline comments nobody reads.
 
-![Data Quality Status custom property](Screenshots/Data_Quality_Status_Field.jpg)
+![Data Quality Status custom property](Screenshots/Data_Quality_Status_FIeld.png)
 
 ## Bottom line
 

@@ -7,11 +7,11 @@ Imported a messy contact dataset into HubSpot Free CRM, cleaned and standardized
 ## The numbers
 
 - Source file: 51 records
-- Rejected by HubSpot at import: 12 (~24%)
+- Rejected at import: 6 rows (~12%)
   - 1 duplicate email
   - 5 invalid email formats
-  - 6 invalid Lifecycle Stage values (didn't match HubSpot's allowed options)
-- Imported: 39
+- Imported with dropped values: 6 Lifecycle Stage values silently removed (didn't match HubSpot's allowed options)
+- Imported: 45
 - Junk rows deleted: 3
 - Duplicates merged: 3 (Jane Doe, John Smith, Walter White)
 - Company names standardized: 8 (IBM x4, Northwind x4)

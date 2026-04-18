@@ -55,7 +55,7 @@ HubSpot associates contacts to Company records by email domain, not by the Compa
 
 **4. A pre-import validation pass would save recoverable records.**
 
-Of the 5 invalid-email rows HubSpot rejected, 4 were clearly junk (test@test.com, asdf, etc.). One (Priya Patel, priya@) looked like a real person with a truncated email, the kind of row you'd want to flag for follow-up with the source rather than silently drop. HubSpot gives you no way to distinguish the two at import time.
+Of the 5 invalid-email rows HubSpot rejected, 4 were clearly junk (`test@test.com,` asdf, etc.). One (Priya Patel, priya@) looked like a real person with a truncated email, the kind of row you'd want to flag for follow-up with the source rather than silently drop. HubSpot gives you no way to distinguish the two at import time.
 
 ## Properties I added
 

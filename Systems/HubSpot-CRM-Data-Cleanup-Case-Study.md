@@ -28,11 +28,11 @@ Imported a messy contact dataset into HubSpot Free CRM, cleaned and standardized
 
 ## What I had to do by hand
 
-- **Duplicates with different email casing.** HubSpot's import dedupe is a literal string match. john.smith@acme.com and John.Smith@ACME.com came through as two separate contacts.
+- **Duplicates with different email casing.** HubSpot's import dedupe is a literal string match. `john.smith@acme.com` and `John.Smith@ACME.com` came through as two separate contacts.
 - **Duplicates with different email addresses entirely.** Walt White had two records with different aliases at the same company. A person can tell they're the same guy. The platform can't.
 - **Contact-level Company Name cleanup.** The Company object was fine. The text field on each contact was not, and it shows up in list views and exports.
 - **Typo email domains** like wayen.com and dailyplannet.com. Technically valid format, so HubSpot accepted them.
-- **Junk rows with valid-looking data.** Mickey Mouse, test@test.com. No automated check is going to catch those.
+- **Junk rows with valid-looking data.** Mickey Mouse, `test@test.com`. No automated check is going to catch those.
 - **Records with missing essentials.** No email, no name. They imported. They're useless.
 
 ## Key findings

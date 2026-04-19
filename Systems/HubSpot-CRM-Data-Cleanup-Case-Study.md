@@ -4,8 +4,13 @@ Imported a messy contact dataset into HubSpot Free CRM, cleaned and standardized
 
 **Exercise:** Imported a 51-contact test dataset into HubSpot Free CRM and cleaned it up using only free-tier features. The dataset had duplicates, bad formatting, invalid emails, typo domains, missing fields, and junk rows.
 
-![Data cleanup breakdown](Screenshots/01_Cleanup_Results.png)
+## Screenshots
 
+- [Import error summary](Screenshots/02_Import_Errors.png) - HubSpot's import validation results
+- [Cleanup breakdown](Screenshots/01_Cleanup_Results.png) - Record flow from source to final count
+- [Alternate Email property](Screenshots/Alternate_Email_Field.png) - Custom field to capture secondary emails before merging
+- [Data Quality Status property](Screenshots/Data_Quality_Status_Field.jpg) - Custom dropdown to flag records for review
+  
 ## The numbers
 
 - Source file: 51 records
@@ -20,8 +25,6 @@ Imported a messy contact dataset into HubSpot Free CRM, cleaned and standardized
 - Records flagged for verification: 5
 - Custom properties created: 2 (Alternate Email, Data Quality Status)
 - Emails recovered from merge history: 1
-
-![HubSpot import error summary](Screenshots/02_Import_Errors.png)
 
 ## What HubSpot handled on its own
 
@@ -65,11 +68,7 @@ Of the 5 invalid-email rows HubSpot rejected, 4 were clearly junk (`test@test.co
 
 - **Alternate Email** (custom property, Email type). Captures secondary emails that would otherwise vanish during a merge.
 
-![Alternate Email custom property](Screenshots/Alternate_Email_Field.png)
-
 - **Data Quality Status** (custom property, dropdown). Values: Clean, Needs Verification, Incomplete, Do Not Contact. Turns one-off notes into a filterable field, so flagged records can be pulled into a review list later instead of rotting in timeline comments nobody reads.
-
-![Data Quality Status custom property](Screenshots/Data_Quality_Status_FIeld.png)
 
 ## Bottom line
 

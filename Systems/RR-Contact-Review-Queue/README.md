@@ -6,7 +6,7 @@ This workflow handles contacts after they have already been created in HubSpot. 
 
 This workflow handles contacts after they have already been created in HubSpot. It checks whether the intake is complete, assigns a routing status, logs the result, and sends an internal email alert. HubSpot is the source of truth, Zapier handles the routing logic, Google Sheets keeps a log, and Gmail sends the notifications.
 
-For a quick visual overview, see the [workflow diagram](./Screenshots/04-flow-diagram.png). For the full workflow logic and build details, see the [workflow spec](./relocation_roadmaps_workflow_spec.md). For setup and test images, see the [Screenshots](./Screenshots/) folder.
+For a quick visual overview, see the [workflow diagram](./Screenshots/04-flow-diagram.png). For the full workflow logic and build details, see the [workflow spec](./relocation_roadmaps_workflow_spec.md). For system images see the [Screenshots](./Screenshots/) folder.
 
 ### What it does
 

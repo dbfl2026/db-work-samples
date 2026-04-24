@@ -1,5 +1,7 @@
 ## Relocation Roadmaps - Post-Intake Routing Workflow
 
+Built to automate post-intake contact triage for an active relocation lead generation system - 3,500+ contacts across five target markets, routed by completeness into prioritized review queues.
+
 This workflow handles contacts after they have already been created in HubSpot. It checks whether the intake is complete, assigns a routing status, logs the result, and sends an internal email alert. HubSpot is the source of truth, Zapier handles the routing logic, Google Sheets keeps a log, and Gmail sends the notifications.
 
 ## Relocation Roadmaps - Post-Intake Routing Workflow

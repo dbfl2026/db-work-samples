@@ -9,7 +9,7 @@ This repo contains work samples in AI operations, workflow QA, data integrity, a
 - HubSpot CRM - messy data import and cleanup case study: [HubSpot-CRM-Data-Cleanup-Case-Study.md](Systems/HubSpot-CRM-Data-Cleanup-Case-Study.md)
 - Salesforce CRM Data Quality - prevention-focused admin controls case study: [Salesforce-CRM-Data-Quality](https://github.com/dbfl2026/salesforce-crm-data-quality)
 - Relocation Roadmaps - project summary (PDF preview): [Relocation-Roadmaps-Project-Summary.pdf](Systems/Relocation-Roadmaps-Project-Summary.pdf)
-- AI Guide Audit Workflow - end-to-end overview: [AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
+- AI Guide Audit Workflow Overview - GPT, Sheets, Zapier, Notion: [AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
 
 ## What these samples demonstrate
 

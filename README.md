@@ -7,25 +7,6 @@ This repo contains work samples in AI operations, workflow QA, data integrity, a
 ## Start Here
 
 - Chargeback Defender - e-commerce dispute operations kit: [Chargeback-Defender](Systems/Chargeback-Defender)
-  - Tech: Excel, PDF documentation, structured operating templates
-
-- HubSpot CRM - RR post-intake routing workflow: [Hubspot-Post-Intake-Routing-Workflow](Systems/Relocation-Roadmaps/Hubspot-Post-Intake-Routing-Workflow)
-  - Tech: HubSpot, Zapier, Google Sheets, Gmail
-
-- HubSpot CRM - messy data import and cleanup case study: [HubSpot-CRM-Data-Cleanup.md](Systems/HubSpot-CRM-Data-Cleanup.md)
-  - Tech: HubSpot, spreadsheets, data cleanup workflow design
-
-- Salesforce CRM Data Quality - prevention-focused admin controls case study: [Salesforce-CRM-Data-Quality](https://github.com/dbfl2026/salesforce-crm-data-quality)
-  - Tech: Salesforce, validation rules, admin controls, data quality design
-
-- Relocation Roadmaps - project summary (PDF preview): [Relocation-Roadmaps-Project-Summary.pdf](Systems/Relocation-Roadmaps-Project-Summary.pdf)
-  - Tech: AI-assisted content workflow, structured prompts, review process design
-
-- AI Guide Audit Workflow Overview: [AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
-  - Tech: GPT, Google Sheets, Zapier, Notion
-
-
-- Chargeback Defender - e-commerce dispute operations kit: [Chargeback-Defender](Systems/Chargeback-Defender)
 - HubSpot CRM - RR post-intake routing workflow: [Hubspot-Post-Intake-Routing-Workflow](Systems/RR-Contact-Review-Queue)
 - HubSpot CRM - messy data import and cleanup case study: [HubSpot-CRM-Data-Cleanup.md](Systems/HubSpot-CRM-Data-Cleanup-Case-Study.md)
 - Salesforce CRM Data Quality - prevention-focused admin controls case study: [Salesforce-CRM-Data-Quality](https://github.com/dbfl2026/salesforce-crm-data-quality)

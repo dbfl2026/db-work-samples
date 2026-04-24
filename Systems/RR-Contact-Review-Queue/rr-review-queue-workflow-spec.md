@@ -1,9 +1,10 @@
 # Relocation Roadmaps - Post-Intake Routing Workflow
 
 ## Purpose
-This workflow routes newly created or updated HubSpot contacts into one of three post-intake statuses based on intake completeness, logs the result to Google Sheets, and sends an internal Gmail alert.
+This workflow routes HubSpot contacts into the correct post-intake status based on intake completeness, writes the result back to HubSpot, logs the outcome in Google Sheets, and sends an internal Gmail alert.
 
 ## Business Context
+This is a live Relocation Roadmaps workflow, not a demo-only build. It begins after a contact already exists in HubSpot. Contacts may enter HubSpot through form submission, manual entry, import, or another source.
 
 ## Stack
 - HubSpot
@@ -19,15 +20,17 @@ Corrections are made in HubSpot, not in Google Sheets. Google Sheets is used as 
 ## Trigger
 **Zapier Trigger:** HubSpot - Contact Recently Created or Updated
 
-The workflow only evaluates contacts whose `Workflow Status` has not already been set to one of the final routing values.
+This is a post-intake routing workflow. It does not handle anything that happens before the contact is created in HubSpot.
 
 ## Filter Rule
-The Zap continues only when `Workflow Status` is not already one of the following:
+The Zap should continue only for contacts that have not already been processed.
+
+In practice, that means the Zap continues only when `Workflow Status` is not already one of the following:
 - `Needs Info`
 - `Needs Review`
 - `Ready for Review`
 
-This prevents already-processed contacts from re-entering the workflow after Zap-driven updates.
+This prevents contacts that have already been routed from re-entering the workflow after Zap-driven updates.
 
 ## Custom HubSpot Properties Used
 - `Target Country`
@@ -37,6 +40,12 @@ This prevents already-processed contacts from re-entering the workflow after Zap
 - `Review Notes`
 
 ## Routing Logic
+The workflow evaluates three intake fields:
+- `Target Country`
+- `Target City`
+- `Move Timeframe`
+
+Based on those fields, the contact is routed into one of three paths.
 
 ### Path 1 - Ready for Review
 A contact goes to **Ready for Review** when:
@@ -79,6 +88,8 @@ A contact goes to **Needs Info** when:
 ## Google Sheets Log
 **Spreadsheet:** `relocation_roadmaps_review_queue`
 
+The sheet acts as a running log of workflow outcomes and a working queue for follow-up when needed.
+
 **Columns**
 - Timestamp
 - Contact ID
@@ -92,29 +103,29 @@ A contact goes to **Needs Info** when:
 - Review Notes
 
 ## Gmail Alerts
-At the moment, all alerts are sent to the same internal owner inbox.
+Gmail is used to send internal workflow alerts after routing.
 
-### Subject Lines
+At the moment, all alerts are sent to the same owner inbox.
+
+**Subject Lines**
 - `RR Needs Info - {{First Name}} {{Last Name}}`
 - `RR Needs Review - {{First Name}} {{Last Name}}`
 - `RR Ready for Review - {{First Name}} {{Last Name}}`
 
-### Email Purpose
-- **Needs Info:** contact is too incomplete to evaluate
-- **Needs Review:** contact is usable but still needs operator judgment or cleanup
-- **Ready for Review:** contact is complete enough for final review
+**Operational Meaning**
+- **Needs Info:** the contact is too incomplete to evaluate and needs more intake data
+- **Needs Review:** the contact is usable, but still needs operator judgment or cleanup
+- **Ready for Review:** the contact is complete enough for final review
 
 ## Re-Entry Logic
-This is a post-intake routing workflow.
+Because the trigger is **created or updated**, a contact can re-enter the workflow after a manual change in HubSpot.
 
-Because the trigger is **created or updated**, a contact can enter the workflow again after a manual change in HubSpot. In practice, the filter prevents that from happening once `Workflow Status` has already been set to one of the three routing values.
+In normal operation, the filter prevents that from happening once `Workflow Status` has already been set to one of the three routing values:
+- `Needs Info`
+- `Needs Review`
+- `Ready for Review`
 
-If a contact needs to be re-tested manually, `Workflow Status` can be cleared and the record can be updated again.
-
-## Operational Meaning of Each Status
-- **Needs Info:** key intake information is missing
-- **Needs Review:** intake exists but is incomplete or questionable
-- **Ready for Review:** intake is complete enough to hand off for final review
+If a contact needs to be tested again manually, `Workflow Status` can be cleared and the record can be updated again.
 
 ## What This Workflow Does Not Cover
 This workflow does not handle pre-HubSpot intake logic. It begins only after a contact record already exists in HubSpot.

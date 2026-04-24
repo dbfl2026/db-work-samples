@@ -2,6 +2,8 @@
 
 This workflow handles contacts after they have already been created in HubSpot. It checks whether the intake is complete, assigns a routing status, logs the result, and sends an internal email alert. HubSpot is the source of truth, Zapier handles the routing logic, Google Sheets keeps a log, and Gmail sends the notifications.
 
+For the full workflow logic and build details, see the [workflow spec](./rr-review-queue-workflow-spec.md). For setup and test images, see the [Screenshots](./Screenshots/) folder.
+
 ### What it does
 
 At a high level, this workflow takes a new or updated HubSpot contact, evaluates a small set of intake fields, and routes that contact into the correct next state.

@@ -5,7 +5,7 @@ This repo contains work samples in AI operations, workflow QA, data integrity, a
 ## Start Here
 
 - Chargeback Defender - e-commerce dispute operations kit: [Chargeback-Defender](Systems/Chargeback-Defender)
-- HubSpot - RR post-intake routing workflow: [Post-Intake-Routing-Workflow](Systems/RR-Contact-Review-Queue)
+- HubSpot CRM - RR post-intake routing workflow: [Post-Intake-Routing-Workflow](Systems/RR-Contact-Review-Queue)
 - HubSpot CRM - messy data import and cleanup case study: [HubSpot-CRM-Data-Cleanup-Case-Study.md](Systems/HubSpot-CRM-Data-Cleanup-Case-Study.md)
 - Salesforce CRM Data Quality - prevention-focused admin controls case study: [Salesforce-CRM-Data-Quality](https://github.com/dbfl2026/salesforce-crm-data-quality)
 - Relocation Roadmaps - project summary (PDF preview): [Relocation-Roadmaps-Project-Summary.pdf](Systems/Relocation-Roadmaps-Project-Summary.pdf)

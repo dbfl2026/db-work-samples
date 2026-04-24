@@ -1,6 +1,6 @@
 # AI Operations, Data Integrity, and Workflow Systems - Work Samples
 
-This repo contains work samples in AI operations, workflow QA, data integrity, and system design - built to keep outputs consistent and workflows traceable.
+This repo contains work samples in AI operations, workflow QA, data integrity, and workflow design. The focus is practical execution: keeping outputs consistent, making workflows traceable, and building systems that can be understood, tested, and maintained.
 
 ## Start Here
 
@@ -8,9 +8,12 @@ This repo contains work samples in AI operations, workflow QA, data integrity, a
 - HubSpot CRM - messy data import and cleanup case study: [HubSpot-CRM-Data-Cleanup-Case-Study.md](Systems/HubSpot-CRM-Data-Cleanup-Case-Study.md)
 - Salesforce CRM Data Quality - prevention-focused admin controls case study: [Salesforce-CRM-Data-Quality](https://github.com/dbfl2026/salesforce-crm-data-quality)
 - Relocation Roadmaps - project summary (PDF preview): [Relocation-Roadmaps-Project-Summary.pdf](Systems/Relocation-Roadmaps-Project-Summary.pdf)
+- Relocation Roadmaps - post-intake routing workflow: [Systems/Relocation-Roadmaps/Post-Intake-Routing-Workflow](Systems/Relocation-Roadmaps/Post-Intake-Routing-Workflow)
 - AI Guide Audit Workflow - end-to-end overview: [Systems/AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
 
 ## What these samples demonstrate
+
+These samples show how I approach operations and workflow systems in real environments: defining clear process logic, keeping data clean enough to trust, and adding lightweight controls so work can move without turning into guesswork.
 
 - Run AI-assisted workflows with real-world inputs without losing quality or introducing drift
 - Build prompt templates, SOPs, and QA checks that keep outputs consistent and reduce rework
@@ -24,8 +27,10 @@ The Chargeback Defender samples are from a live product built and shipped in 9 d
 
 ## What you'll find
 
+Below is a quick guide to the kinds of materials included in this repo and what each set is meant to show.
+
 - Chargeback Defender artifacts: decision calculator, dispute tracker with rate monitoring, evidence assembly guide, test cases, project conventions, and schema documentation - [Systems/Chargeback-Defender](Systems/Chargeback-Defender)
-- Relocation Roadmaps artifacts: project summary, reviewed guide sections, evaluation scorecards, workflow notes, and redacted prompt excerpts showing how structured output was produced and checked - [Systems/Relocation-Roadmaps](Systems/Relocation-Roadmaps)
+- Relocation Roadmaps artifacts: project summary, reviewed guide sections, evaluation scorecards, workflow notes, redacted prompt excerpts, and the new post-intake routing workflow showing HubSpot, Zapier, Google Sheets, and Gmail working together - [Systems/Relocation-Roadmaps](Systems/Relocation-Roadmaps)
 - AI audit workflow artifacts: structured outputs (TSV and JSON) and review tracking across Sheets, Zapier, and Notion
 - QA artifacts: test plans, test cases, and sample bug reports
 - AI workflow examples: evaluation scorecards and reviewed guide sections

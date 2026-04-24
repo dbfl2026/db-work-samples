@@ -15,7 +15,7 @@ This repo contains work samples in AI operations, workflow QA, data integrity, a
 
 These samples show how I approach operations and workflow systems in real environments: defining clear process logic, keeping data clean enough to trust, and adding lightweight controls so work can move without turning into guesswork.
 
-- Run AI-assisted workflows with real-world inputs without losing quality or introducing drift
+- Build AI-assisted workflows with real-world inputs without losing quality or introducing drift
 - Build prompt templates, SOPs, and QA checks that keep outputs consistent and reduce rework
 - Keep data usable through standardization, deduplication, required fields, and naming conventions
 - Troubleshoot operational issues, identify root causes, and document fixes so problems do not repeat

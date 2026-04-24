@@ -1,18 +1,13 @@
 ## Relocation Roadmaps - Post-Intake Routing Workflow
 
-Built to automate post-intake contact triage for an active relocation lead generation system - 3,500+ contacts across five target markets, routed by completeness into prioritized review queues.
-
-This workflow handles contacts after they have already been created in HubSpot. It checks whether the intake is complete, assigns a routing status, logs the result, and sends an internal email alert. HubSpot is the source of truth, Zapier handles the routing logic, Google Sheets keeps a log, and Gmail sends the notifications.
-
-## Relocation Roadmaps - Post-Intake Routing Workflow
-
+Built to automate post-intake contact triage for an active relocation lead generation system - 3,500+ contacts across five target markets, routed by completeness into prioritized review queues. HubSpot is the source of truth, Zapier handles the routing logic, Google Sheets keeps a log, and Gmail sends the notifications.
 This workflow handles contacts after they have already been created in HubSpot. It checks whether the intake is complete, assigns a routing status, logs the result, and sends an internal email alert. HubSpot is the source of truth, Zapier handles the routing logic, Google Sheets keeps a log, and Gmail sends the notifications.
 
 For a quick visual overview, see the [workflow diagram](./Screenshots/04-flow-diagram.png). For the full workflow logic and build details, see the [workflow spec](./relocation_roadmaps_workflow_spec.md). For system images see the [Screenshots](./Screenshots/) folder.
 
 ### What it does
 
-At a high level, this workflow takes a new or updated HubSpot contact, evaluates a small set of intake fields, and routes that contact into the correct next state.For the full workflow logic and build details, see the [workflow spec](./rr-review-queue-workflow-spec.md). For setup and test images, see the [Screenshots](./Screenshots/) folder.
+Triggers on a new or updated HubSpot contact, evaluates three intake fields, assigns a routing status, updates HubSpot, logs the result to Google Sheets, and sends an internal Gmail alert.
 
 ### What it does
 

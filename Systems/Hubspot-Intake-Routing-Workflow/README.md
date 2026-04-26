@@ -46,7 +46,7 @@ Shows the HubSpot fields used to collect and review intake details.
 
 Shows this workflow alongside other active operational Zaps.
 
-![Zapier Workflow List](Screenshots/05-zaps.png)
+![Zapier Workflow List](Screenshots/05-Zaps.png)
 
 ## Full Workflow Spec
 

@@ -133,43 +133,43 @@ That makes it a good Salesforce test. A simple status field would not be enough.
 
 ## 01 - RR Production Control Dashboard
 
-![RR Production Control Dashboard](Screenshots/01-salesforce-dashboard.png)
+![RR Production Control Dashboard](Screenshots/01.png)
 
 Shows the Salesforce dashboard with guide status, Source Packet QA, Evidence Pack QA, and Section Draft Readiness in one control view.
 
 ## 02 - Active Guide Production Records
 
-![Active Guide Production Records](Screenshots/02-salesforce-production-list-view.png)
+![Active Guide Production Records](Screenshots/02.png)
 
 Shows the active guide production list view with the Chiang Mai guide record, current stage, overall status, readiness, and risk level.
 
 ## 03 - City Guide Production Record - Related Records
 
-![City Guide Production Record - Related Records](Screenshots/03-salesforce-city-guide-related-records.png)
+![City Guide Production Record - Related Records](Screenshots/03.png)
 
 Shows the Chiang Mai parent guide record with its related child records: Source Packet QA, Evidence Pack QA, and Section Draft Readiness.
 
 ## 04 - Source Packet QA - Custom Fields
 
-![Source Packet QA - Custom Fields](Screenshots/04-salesforce-custom-object-fields-qa.png)
+![Source Packet QA - Custom Fields](Screenshots/04.png)
 
 Shows the custom fields created for the Source Packet QA object, including source count, Section 07 gate status, source mix status, Data Harvester readiness, and QA notes.
 
 ## 05 - Chiang Mai Source Packet QA - April 2026
 
-![Chiang Mai Source Packet QA - April 2026](Screenshots/05-salesforce-source-packet-qa.png)
+![Chiang Mai Source Packet QA - April 2026](Screenshots/05.png)
 
 Shows the completed Source Packet QA record for Chiang Mai, including source count, Section 07 gate status, source mix status, section coverage status, and readiness for Data Harvester.
 
 ## 06 - Chiang Mai Evidence Pack QA - April 2026
 
-![Chiang Mai Evidence Pack QA - April 2026](Screenshots/06-salesforce-evidence-pack-qa.png)
+![Chiang Mai Evidence Pack QA - April 2026](Screenshots/06.png)
 
 Shows the completed Evidence Pack QA record, including exact-number preservation, outside-fact control, access failure tracking, sampling checks, and readiness for section writing.
 
 ## 07 - Chiang Mai Section 07 Readiness - April 2026
 
-![Chiang Mai Section 07 Readiness - April 2026](Screenshots/07-salesforce-section-07-readiness.png)
+![Chiang Mai Section 07 Readiness - April 2026](Screenshots/07.png)
 
 Shows the section-level readiness record for Chiang Mai Section 07 - Budget & Cost of Living.
 

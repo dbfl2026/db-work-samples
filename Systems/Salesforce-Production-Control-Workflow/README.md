@@ -145,7 +145,7 @@ Shows the active guide production list view with the Chiang Mai guide record, cu
 
 ## 03 - City Guide Production Record - Related Records
 
-![City Guide Production Record - Related Records](Screenshots/3-salesforce-city-guide-related-records.png)
+![City Guide Production Record - Related Records](Screenshots/03-salesforce-city-guide-related-records.png)
 
 Shows the Chiang Mai parent guide record with its related child records: Source Packet QA, Evidence Pack QA, and Section Draft Readiness.
 

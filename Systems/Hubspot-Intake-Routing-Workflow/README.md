@@ -9,7 +9,7 @@ Imported a messy contact dataset into HubSpot Free CRM, cleaned and standardized
 - [Import error summary](Screenshots/02_Import_Errors.png) - HubSpot's import validation results
 - [Cleanup results](Screenshots/01_Cleanup_Results.png) - Record flow from source to final count
 - [Alternate Email property](Screenshots/Alternate_Email_Field.png) - Custom field to capture secondary emails before merging
-- [Data Quality Status property](Screenshots/Data_Quality_Status_FIeld.png) - Custom dropdown to flag records for review
+- [Data Quality Status property](Screenshots/Data_Quality_Status_Field.png) - Custom dropdown to flag records for review
   
 ## The numbers
 

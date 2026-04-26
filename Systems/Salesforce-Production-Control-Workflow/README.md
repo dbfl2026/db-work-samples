@@ -4,9 +4,9 @@
 
 This project is a Salesforce workflow built for a real Relocation Roadmaps guide production process.
 
-It uses the Chiang Mai guide for the Thailand Relocation Guide as the sample record. This is not a fake sales pipeline or generic demo. It is a small production control system for tracking source review, evidence review, and section writing readiness in an AI-assisted publishing workflow.
+It uses the Chiang Mai, Thailand Relocation Guide as the sample record. This is not a generic demo, it is a small system for tracking source review, evidence review, and section writing readiness in an AI-assisted publishing workflow.
 
-The goal is simple: make sure guide production does not move forward until the right QA gates are cleared.
+The goal: make sure guide production does not move forward until the right QA gates are cleared.
 
 ## Business Problem
 
@@ -48,11 +48,10 @@ Salesforce does not store the guide content itself. It tracks production status,
 Day to day, the workflow would work like this:
 
 1. A city guide production record is created in Salesforce.
-2. Source Packet QA is completed after the Source Builder finishes the source file.
-3. Evidence Pack QA is completed after the Data Harvester finishes the evidence file.
-4. Section Draft Readiness records confirm whether individual sections are ready for writing.
+2. After the Source Builder finishes the Source Packet in Drive, the production owner or QA reviewer checks it against the source rules and updates the Source Packet QA record in Salesforce.
+3. After the Data Harvester finishes the Evidence Pack in Drive, the production owner or QA reviewer checks it against the evidence rules and updates the Evidence Pack QA record in Salesforce.
+4. Before writing begins, the production owner confirms the required inputs exist in Drive and updates the Section Draft Readiness records in Salesforce.
 5. Reports and dashboards show which guide work is ready, blocked, high risk, or waiting for review.
-
 This keeps the workflow controlled without turning Salesforce into a content storage system.
 
 ## Workflow Model
@@ -167,10 +166,4 @@ This project shows practical Salesforce Admin and operations design skills in a 
 
 Salesforce is often shown as a sales pipeline tool. This project uses it as a production control system.
 
-The workflow tracks whether each stage is ready before the next person or process starts work. That matters because AI-assisted production still needs source control, evidence discipline, human review, and clear handoff rules.
-
-## Status
-
-Portfolio work sample complete.
-
-This is a working Salesforce configuration based on the Chiang Mai guide production process for Relocation Roadmaps.
+The workflow tracks whether each stage is ready before the next person or process starts work. That matters because AI-assisted production still needs source control, evidence control, human review, and clear handoff rules.

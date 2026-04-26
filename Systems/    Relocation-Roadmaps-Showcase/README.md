@@ -84,22 +84,7 @@ Suggested file:
 
 ## Production Workflow
 
-```text
-Data Pack
-   ↓
-Writer Prompt
-   ↓
-Draft Guide Section
-   ↓
-QA Review
-   ↓
-Red Team Review
-   ↓
-Revision
-   ↓
-Production-Ready Section
-```
-
+(Screenshots/rr_workflow.png)
 
 ## My Role
 

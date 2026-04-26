@@ -27,36 +27,20 @@ The focus is simple: build systems that are clear, traceable, testable, and usef
 
 ### Relocation Roadmaps
 
-AI-assisted publishing operations system built around source review, evidence review, guide production, workflow QA, and structured evaluation.
-
-Includes project summaries, reviewed guide sections, evaluation scorecards, workflow notes, redacted prompt excerpts, and production QA documentation.
+[Relocation Roadmaps](Systems/Relocation-Roadmaps) is a real AI-assisted publishing operations project. The samples show source review, evidence review, guide production, workflow QA, structured evaluation, and production documentation.
 
 ### Salesforce workflow samples
 
-CRM-style workflow samples showing production control, source review, evidence review, section readiness, QA status tracking, and prevention-focused data quality controls.
-
-These samples are meant to show practical Salesforce admin and operations thinking, not custom development.
+The Salesforce samples show CRM-style production control, source review, evidence review, section readiness, QA status tracking, and prevention-focused data quality controls. They are meant to show practical Salesforce admin and operations thinking, not custom development.
 
 ### HubSpot workflow samples
 
-HubSpot workflow samples showing post-intake routing, review queues, follow-up operations, messy data cleanup, and CRM field hygiene.
-
-The routing workflow connects HubSpot, Zapier, Google Sheets, and Gmail in a lightweight operations flow.
+The HubSpot samples show post-intake routing, review queues, follow-up operations, messy data cleanup, and CRM field hygiene. The routing workflow connects HubSpot, Zapier, Google Sheets, and Gmail in a lightweight operations flow.
 
 ### AI audit workflow
 
-Structured review workflow using TSV/JSON outputs and tracking across Sheets, Zapier, and Notion.
-
-Built to show AI-assisted QA, review traceability, and human-in-the-loop validation.
+[AI-assisted Relocation Guide Audit Workflow](Systems/AI-Guide-Audit-Workflow) shows structured review using TSV/JSON outputs and tracking across Sheets, Zapier, and Notion, with human-in-the-loop validation.
 
 ### Chargeback Defender
 
-Operational kit for e-commerce dispute handling.
-
-Includes a decision calculator, dispute tracker, evidence assembly guide, test cases, schema notes, and project conventions.
-
-## Notes
-
-The Relocation Roadmaps samples come from a real project and are shared to show process, structure, and decision-making, not polished client deliverables.
-
-The Chargeback Defender samples are from a live product built and shipped in 9 days.
+[Chargeback Defender](Systems/Chargeback-Defender) is a live e-commerce dispute operations kit built and shipped in 9 days. The samples include a decision calculator, dispute tracker, evidence assembly guide, test cases, schema notes, and project conventions.

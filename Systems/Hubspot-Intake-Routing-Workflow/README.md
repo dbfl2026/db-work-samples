@@ -20,7 +20,7 @@ The workflow checks whether a contact has enough relocation intake information t
 
 ## Visual Workflow
 
-![Post-Intake Routing Workflow](screenshots/04-flow-diagram.png)
+![Post-Intake Routing Workflow](Screenshots/04-flow-diagram.png)
 
 ## System Screenshots
 
@@ -28,31 +28,31 @@ The workflow checks whether a contact has enough relocation intake information t
 
 Shows the HubSpot fields used to collect and review intake details.
 
-![HubSpot Contact Fields](screenshots/01-hubspot-contact-fields.png)
+![HubSpot Contact Fields](Screenshots/01-hubspot-contact-fields.png)
 
 ### Zapier Routing Workflow
 
 Shows the Zapier paths that route contacts based on intake completeness.
 
-![Zapier Routing Workflow](screenshots/02-zap-overview.png)
+![Zapier Routing Workflow](Screenshots/02-zap-overview.png)
 
 ### Google Sheets Review Queue
 
 Shows the Google Sheets queue created by the workflow.
 
-![Google Sheets Review Queue](screenshots/03-google-sheets-log.png)
+![Google Sheets Review Queue](Screenshots/03-google-sheets-log.png)
 
 ### Zapier Workflow List
 
 Shows this workflow alongside other active operational Zaps.
 
-![Zapier Workflow List](screenshots/05-zaps.png)
+![Zapier Workflow List](Screenshots/05-zaps.png)
 
 ## Full Workflow Spec
 
 The full routing logic and build notes are documented here:
 
-[View the workflow spec](screenshots/rr-review-queue-workflow-spec.md)
+[View the workflow spec](Screenshots/rr-review-queue-workflow-spec.md)
 
 ## What It Does
 

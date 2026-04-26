@@ -139,19 +139,19 @@ Shows the Salesforce dashboard with guide status, Source Packet QA, Evidence Pac
 
 ## 02 - Active Guide Production Records
 
-![Active Guide Production Records](Screenshots/02-salesforce-active-guide-production-list-view(1).png)
+![Active Guide Production Records](Screenshots/02-salesforce-active-guide-production-list-view.png)
 
 Shows the active guide production list view with the Chiang Mai guide record, current stage, overall status, readiness, and risk level.
 
 ## 03 - City Guide Production Record - Related Records
 
-![City Guide Production Record - Related Records](Screenshots/3-salesforce-city-guide-related-records-chiang-mai(1).png)
+![City Guide Production Record - Related Records](Screenshots/3-salesforce-city-guide-related-records-chiang-mai.png)
 
 Shows the Chiang Mai parent guide record with its related child records: Source Packet QA, Evidence Pack QA, and Section Draft Readiness.
 
 ## 04 - Source Packet QA - Custom Fields
 
-![Source Packet QA - Custom Fields](Screenshots/04-salesforce-custom-object-fields-source-packet-qa(1).png)
+![Source Packet QA - Custom Fields](Screenshots/04-salesforce-custom-object-fields-source-packet-qa.png)
 
 Shows the custom fields created for the Source Packet QA object, including source count, Section 07 gate status, source mix status, Data Harvester readiness, and QA notes.
 
@@ -163,13 +163,13 @@ Shows the completed Source Packet QA record for Chiang Mai, including source cou
 
 ## 06 - Chiang Mai Evidence Pack QA - April 2026
 
-![Chiang Mai Evidence Pack QA - April 2026](Screenshots/06-salesforce-evidence-pack-qa-record-chiang-mai.png(1).png)
+![Chiang Mai Evidence Pack QA - April 2026](Screenshots/06-salesforce-evidence-pack-qa-record-chiang-mai.png.png)
 
 Shows the completed Evidence Pack QA record, including exact-number preservation, outside-fact control, access failure tracking, sampling checks, and readiness for section writing.
 
 ## 07 - Chiang Mai Section 07 Readiness - April 2026
 
-![Chiang Mai Section 07 Readiness - April 2026](Screenshots/07-salesforce-section-07-draft-readiness-chiang-mai(1).png)
+![Chiang Mai Section 07 Readiness - April 2026](Screenshots/07-salesforce-section-07-draft-readiness-chiang-mai.png)
 
 Shows the section-level readiness record for Chiang Mai Section 07 - Budget & Cost of Living.
 

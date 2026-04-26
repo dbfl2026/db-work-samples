@@ -131,45 +131,45 @@ That makes it a good Salesforce test case. A simple status field would not be en
 
 ## Screenshots
 
-## 01 - Production Control Dashboard
+## 01 - RR Production Control Dashboard
 
 ![RR Production Control Dashboard](Systems/Salesforce-Production-Control-Workflow/Screenshots/01-salesforce-rr-production-control-dashboard.png)
 
-Shows the main Salesforce dashboard for guide status, Source Packet QA, Evidence Pack QA, and Section Draft Readiness.
+Shows the Salesforce dashboard with guide status, Source Packet QA, Evidence Pack QA, and Section Draft Readiness in one control view.
 
-## 02 - Active Guide Production List View
+## 02 - Active Guide Production Records
 
-![Active Guide Production List View](Systems/Salesforce-Production-Control-Workflow/Screenshots/02-salesforce-active-guide-production-list-view.png)
+![Active Guide Production Records](Systems/Salesforce-Production-Control-Workflow/Screenshots/02-salesforce-active-guide-production-list-view.png)
 
-Shows the active guide production record with status columns for stage, overall status, risk level, and next-step readiness.
+Shows the active guide production list view with the Chiang Mai guide record, current stage, overall status, readiness, and risk level.
 
-## 03 - City Guide Related Records
+## 03 - City Guide Production Record - Related Records
 
-![City Guide Related Records](Systems/Salesforce-Production-Control-Workflow/Screenshots/03-salesforce-city-guide-related-records-chiang-mai.png)
+![City Guide Production Record - Related Records](Systems/Salesforce-Production-Control-Workflow/Screenshots/03-salesforce-city-guide-related-records-chiang-mai.png)
 
-Shows the parent Chiang Mai guide record with related child records for Source Packet QA, Evidence Pack QA, and Section Draft Readiness.
+Shows the Chiang Mai parent guide record with its related child records: Source Packet QA, Evidence Pack QA, and Section Draft Readiness.
 
-## 04 - Source Packet QA Custom Fields
+## 04 - Source Packet QA - Custom Fields
 
-![Source Packet QA Custom Fields](Systems/Salesforce-Production-Control-Workflow/Screenshots/04-salesforce-custom-object-fields-source-packet-qa.png)
+![Source Packet QA - Custom Fields](Systems/Salesforce-Production-Control-Workflow/Screenshots/04-salesforce-custom-object-fields-source-packet-qa.png)
 
-Shows the custom Salesforce fields created for Source Packet QA tracking.
+Shows the custom fields created for the Source Packet QA object, including source count, Section 07 gate status, source mix status, Data Harvester readiness, and QA notes.
 
-## 05 - Source Packet QA Record
+## 05 - Chiang Mai Source Packet QA - April 2026
 
-![Source Packet QA Record](Systems/Salesforce-Production-Control-Workflow/Screenshots/05-salesforce-source-packet-qa-record-chiang-mai.png)
+![Chiang Mai Source Packet QA - April 2026](Systems/Salesforce-Production-Control-Workflow/Screenshots/05-salesforce-source-packet-qa-record-chiang-mai.png)
 
-Shows the completed Source Packet QA record for Chiang Mai, including source count, Section 07 gate status, source mix status, coverage status, and Data Harvester readiness.
+Shows the completed Source Packet QA record for Chiang Mai, including source count, Section 07 gate status, source mix status, section coverage status, and readiness for Data Harvester.
 
-## 06 - Evidence Pack QA Record
+## 06 - Chiang Mai Evidence Pack QA - April 2026
 
-![Evidence Pack QA Record](Systems/Salesforce-Production-Control-Workflow/Screenshots/06-salesforce-evidence-pack-qa-record-chiang-mai.png)
+![Chiang Mai Evidence Pack QA - April 2026](Systems/Salesforce-Production-Control-Workflow/Screenshots/06-salesforce-evidence-pack-qa-record-chiang-mai.png)
 
-Shows the completed Evidence Pack QA record, including exact-number preservation, outside-fact control, sampling checks, and section-writing readiness.
+Shows the completed Evidence Pack QA record, including exact-number preservation, outside-fact control, access failure tracking, sampling checks, and readiness for section writing.
 
-## 07 - Section 07 Draft Readiness Record
+## 07 - Chiang Mai Section 07 Readiness - April 2026
 
-![Section 07 Draft Readiness Record](Systems/Salesforce-Production-Control-Workflow/Screenshots/07-salesforce-section-07-draft-readiness-chiang-mai.png)
+![Chiang Mai Section 07 Readiness - April 2026](Systems/Salesforce-Production-Control-Workflow/Screenshots/07-salesforce-section-07-draft-readiness-chiang-mai.png)
 
 Shows the section-level readiness record for Chiang Mai Section 07 - Budget & Cost of Living.
 

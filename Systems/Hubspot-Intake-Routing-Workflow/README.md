@@ -29,7 +29,6 @@ The workflow checks whether a contact has enough relocation intake information t
 Shows the HubSpot fields used to collect and review intake details.
 
 ![HubSpot Contact Fields](Screenshots/01-hubspot-contact-fields.png)
-![HubSpot Contact Fields](Screenshots/01-ew-hubspot-contact-fields.png)
 
 ### Zapier Routing Workflow
 

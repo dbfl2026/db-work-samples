@@ -163,7 +163,7 @@ Shows the completed Source Packet QA record for Chiang Mai, including source cou
 
 ## 06 - Chiang Mai Evidence Pack QA - April 2026
 
-![Chiang Mai Evidence Pack QA - April 2026](Screenshots/06-salesforce-evidence-pack-qa-record-chiang-mai.png.png)
+![Chiang Mai Evidence Pack QA - April 2026](Screenshots/06-salesforce-evidence-pack-qa-record-chiang-mai.png)
 
 Shows the completed Evidence Pack QA record, including exact-number preservation, outside-fact control, access failure tracking, sampling checks, and readiness for section writing.
 

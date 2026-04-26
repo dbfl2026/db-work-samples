@@ -70,6 +70,6 @@ Of the 5 invalid-email rows HubSpot rejected, 4 were clearly junk (`test@test.co
 
 - **Data Quality Status** (custom property, dropdown). Values: Clean, Needs Verification, Incomplete, Do Not Contact. Turns one-off notes into a filterable field, so flagged records can be pulled into a review list later instead of rotting in timeline comments nobody reads.
 
-## Bottom line
+## Findings
 
 HubSpot Free catches the obvious stuff at import and leaves the judgment calls to you. Small teams can get by with custom properties. For more than a few hundred contacts, Starter tier is recommended.

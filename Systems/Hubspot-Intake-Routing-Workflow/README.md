@@ -1,34 +1,147 @@
-## Relocation Roadmaps - Post-Intake Routing Workflow
+# HubSpot Intake Routing Workflow
 
-Built to automate post-intake contact triage for an active relocation lead generation system - 3,500+ contacts across five target markets, routed by completeness into prioritized review queues. HubSpot is the source of truth, Zapier handles the routing logic, Google Sheets keeps a log, and Gmail sends the notifications.
+## Technologies Used
 
-For a quick visual overview, see the [workflow diagram](/Screenshots/04-flow-diagram.png). For the full workflow logic and build details, see the [workflow spec](/Screenshots/relocation_roadmaps_workflow_spec.md). For system images see the [/Screenshots]
+- **Business platforms:** HubSpot, Zapier, Google Sheets, Gmail
+- **Data/file formats:** Markdown
+- **Version control:** GitHub
 
-### What it does
+## Overview
 
-Triggers on a new or updated HubSpot contact, evaluates three intake fields, assigns a routing status, updates HubSpot, logs the result to Google Sheets, and sends an internal Gmail alert.
+This workflow handles post-intake contact routing for Relocation Roadmaps, an active relocation lead generation system with 3,500+ contacts across five target markets.
 
-- Checks `Target Country`, `Target City`, and `Move Timeframe`
-- Routes the contact to one of three statuses: `Needs Info`, `Needs Review`, or `Ready for Review`
+HubSpot stays as the source of truth. Zapier runs the routing logic. Google Sheets keeps the review queue and audit log. Gmail sends the internal alerts.
+
+The workflow checks whether a contact has enough relocation intake information to move forward, then assigns one of three review statuses:
+
+- `Needs Info`
+- `Needs Review`
+- `Ready for Review`
+
+## Visual Workflow
+
+![Post-Intake Routing Workflow](screenshots/04-flow-diagram.png)
+
+## System Screenshots
+
+### HubSpot Contact Fields
+
+Shows the HubSpot fields used to collect and review intake details.
+
+![HubSpot Contact Fields](screenshots/01-hubspot-contact-fields.png)
+
+### Zapier Routing Workflow
+
+Shows the Zapier paths that route contacts based on intake completeness.
+
+![Zapier Routing Workflow](screenshots/02-zap-overview.png)
+
+### Google Sheets Review Queue
+
+Shows the Google Sheets queue created by the workflow.
+
+![Google Sheets Review Queue](screenshots/03-google-sheets-log.png)
+
+### Zapier Workflow List
+
+Shows this workflow alongside other active operational Zaps.
+
+![Zapier Workflow List](screenshots/05-zaps.png)
+
+## Full Workflow Spec
+
+The full routing logic and build notes are documented here:
+
+[View the workflow spec](screenshots/rr-review-queue-workflow-spec.md)
+
+## What It Does
+
+The workflow runs when a HubSpot contact is created or updated.
+
+It checks three intake fields:
+
+- `Target Country`
+- `Target City`
+- `Move Timeframe`
+
+Then it does four things:
+
+- Assigns a routing status
 - Updates `Workflow Status` in HubSpot
-- Writes the result to Google Sheets
+- Adds a row to Google Sheets
 - Sends an internal Gmail alert
 
-### Routing rules
+## Routing Rules
 
-- **Needs Info** - `Target Country` is missing or `Unknown`
-- **Needs Review** - `Target Country` exists, but `Target City` or `Move Timeframe` is missing or `Unknown`
-- **Ready for Review** - `Target Country`, `Target City`, and `Move Timeframe` all exist and none are `Unknown`
+### Needs Info
 
-### How it is used
+A contact is routed to `Needs Info` when:
 
-- Contacts start with blank `Workflow Status`
-- Once routed, Zapier writes one of the three statuses back to HubSpot
-- Corrections are made in HubSpot, not in Google Sheets
-- A filter prevents already-processed contacts from re-entering the workflow
+- `Target Country` is missing
+- or `Target Country` is `Unknown`
 
-### Notes
+### Needs Review
 
-- This is a live Relocation Roadmaps workflow, not a demo-only build
-- Google Sheets acts as both a log and a review queue
-- Gmail alerts are currently sent to the same owner inbox
+A contact is routed to `Needs Review` when:
+
+- `Target Country` exists
+- and `Target City` is missing
+- or `Move Timeframe` is missing
+- or `Move Timeframe` is `Unknown`
+
+### Ready for Review
+
+A contact is routed to `Ready for Review` when:
+
+- `Target Country` exists
+- `Target City` exists
+- `Move Timeframe` exists
+- `Move Timeframe` is not `Unknown`
+
+## Source of Truth
+
+HubSpot is the source of truth.
+
+Corrections happen in HubSpot, not in Google Sheets. The spreadsheet is only a log and working review queue.
+
+That keeps the system clean. HubSpot holds the contact record, while Google Sheets gives the operator a simple place to review what happened.
+
+## Re-Entry Protection
+
+The trigger runs when a contact is created or updated, so the Zap needs a guardrail.
+
+A filter stops contacts from re-entering the workflow after they already have one of the final routing statuses:
+
+- `Needs Info`
+- `Needs Review`
+- `Ready for Review`
+
+To test a contact again, the operator can clear `Workflow Status` in HubSpot and update the record.
+
+## Why This Matters
+
+This workflow turns messy intake data into a clear review queue.
+
+Instead of checking every new contact by hand, the system separates contacts into three practical groups:
+
+- Missing key information
+- Usable but incomplete
+- Ready for final review
+
+That gives the operator a cleaner handoff and keeps the main record inside HubSpot.
+
+## Current Outcome
+
+The workflow has been tested successfully across all three paths:
+
+- `Needs Info`
+- `Needs Review`
+- `Ready for Review`
+
+It updates HubSpot, writes to Google Sheets, and sends Gmail alerts.
+
+## My Role
+
+I designed and built the workflow logic, HubSpot fields, Zapier routing paths, Google Sheets review queue, Gmail alerts, and documentation.
+
+This work combines CRM operations, automation design, intake triage, workflow testing, and practical business systems implementation.

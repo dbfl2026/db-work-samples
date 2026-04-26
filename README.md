@@ -27,20 +27,20 @@ The focus is simple: build systems that are clear, traceable, testable, and usef
 
 ### Relocation Roadmaps
 
-[Relocation Roadmaps](Systems/Relocation-Roadmaps) is a real AI-assisted publishing operations project. The samples show source review, evidence review, guide production, workflow QA, structured evaluation, and production documentation.
+A real AI-assisted publishing operations project showing source review, evidence review, guide production, workflow QA, structured evaluation, and production documentation.
 
 ### Salesforce workflow samples
 
-The Salesforce samples show CRM-style production control, source review, evidence review, section readiness, QA status tracking, and prevention-focused data quality controls. They are meant to show practical Salesforce admin and operations thinking, not custom development.
+CRM-style workflow samples showing production control, source review, evidence review, section readiness, QA status tracking, and prevention-focused data quality controls.
 
 ### HubSpot workflow samples
 
-The HubSpot samples show post-intake routing, review queues, follow-up operations, messy data cleanup, and CRM field hygiene. The routing workflow connects HubSpot, Zapier, Google Sheets, and Gmail in a lightweight operations flow.
+HubSpot workflow samples showing post-intake routing, review queues, follow-up operations, messy data cleanup, CRM field hygiene, and lightweight follow-up routing.
 
 ### AI audit workflow
 
-[AI-assisted Relocation Guide Audit Workflow](Systems/AI-Guide-Audit-Workflow) shows structured review using TSV/JSON outputs and tracking across Sheets, Zapier, and Notion, with human-in-the-loop validation.
+Structured AI-assisted review workflow using TSV/JSON outputs, review tracking, and human-in-the-loop validation across Sheets, Zapier, and Notion.
 
 ### Chargeback Defender
 
-[Chargeback Defender](Systems/Chargeback-Defender) is a live e-commerce dispute operations kit built and shipped in 9 days. The samples include a decision calculator, dispute tracker, evidence assembly guide, test cases, schema notes, and project conventions.
+Live e-commerce dispute operations kit built and shipped in 9 days, including a decision calculator, dispute tracker, evidence assembly guide, test cases, schema notes, and project conventions.

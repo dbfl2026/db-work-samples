@@ -25,6 +25,8 @@ Without a control layer, weak sources, missing evidence, unsupported numbers, an
 
 I built a small Salesforce app called **RR Production Control** to track the guide workflow from source review through evidence review and section-level writing readiness.
 
+The data model uses one parent **City Guide Production Record** with related child records for **Source Packet QA**, **Evidence Pack QA**, and **Section Draft Readiness**.
+
 The build includes:
 
 - Custom Salesforce app
@@ -53,22 +55,6 @@ Day to day, the workflow would work like this:
 4. Before writing begins, the production owner confirms the required inputs exist in Drive and updates the Section Draft Readiness records in Salesforce.
 5. Reports and dashboards show which guide work is ready, blocked, high risk, or waiting for review.
 This keeps the workflow controlled without turning Salesforce into a content storage system.
-
-## Workflow Model
-
-City Guide Production Record
-
-- Source Packet QA
-- Evidence Pack QA
-- Section Draft Readiness
-
-Example parent record:
-
-`Chiang Mai - Full Guide - April 2026`
-
-Example section readiness record:
-
-`Chiang Mai Section 07 Readiness - April 2026`
 
 ## Why Section 07 Was Used
 

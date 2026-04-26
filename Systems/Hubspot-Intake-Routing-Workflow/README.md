@@ -2,7 +2,7 @@
 
 Built to automate post-intake contact triage for an active relocation lead generation system - 3,500+ contacts across five target markets, routed by completeness into prioritized review queues. HubSpot is the source of truth, Zapier handles the routing logic, Google Sheets keeps a log, and Gmail sends the notifications.
 
-For a quick visual overview, see the [workflow diagram](./Screenshots/04-flow-diagram.png). For the full workflow logic and build details, see the [workflow spec](Screenshots/relocation_roadmaps_workflow_spec.md). For system images see the [/Screenshots]
+For a quick visual overview, see the [workflow diagram](/Screenshots/04-flow-diagram.png). For the full workflow logic and build details, see the [workflow spec](/Screenshots/relocation_roadmaps_workflow_spec.md). For system images see the [/Screenshots]
 
 ### What it does
 

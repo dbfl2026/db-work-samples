@@ -20,7 +20,7 @@ The workflow checks whether a contact has enough relocation intake information t
 
 ## Visual Workflow
 
-![Post-Intake Routing Workflow](Screenshots/04-flow-diagram.png)
+![Post-Intake Routing Workflow](Screenshots/04-flow-diegram.png)
 
 ## System Screenshots
 

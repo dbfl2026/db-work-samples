@@ -148,7 +148,7 @@ This project shows practical Salesforce Admin and operations design skills in a 
 - Production handoff control
 - AI-assisted content workflow governance
 
-## Why This Matters
+## Why This is Important
 
 Salesforce is often shown as a sales pipeline tool. This project uses it as a production control system.
 

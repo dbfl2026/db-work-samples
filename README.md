@@ -2,7 +2,7 @@
 
 This repo contains practical work samples in AI operations, CRM workflows, data quality, workflow QA, and business process documentation.
 
-The focus is simple: build systems that are clear, traceable, testable, and useful in real operating environments.
+My focus: build systems that are clear, accurate, traceable, testable, and useful in real operating environments.
 
 ## Start Here
 

@@ -24,17 +24,17 @@ The workflow checks whether a contact has enough relocation intake information t
 
 ## System Screenshots
 
-### HubSpot Contact Fields
-
-Shows the HubSpot fields used to collect and review intake details.
-
-![HubSpot Contact Fields](Screenshots/01-hubspot-contact-fields.png)
-
 ### Zapier Routing Workflow
 
 Shows the Zapier paths that route contacts based on intake completeness.
 
 ![Zapier Routing Workflow](Screenshots/02-zap-overview.png)
+
+### HubSpot Contact Fields
+
+Shows the HubSpot fields used to collect and review intake details.
+
+![HubSpot Contact Fields](Screenshots/01-hubspot-contact-fields.png)
 
 ### Google Sheets Review Queue
 

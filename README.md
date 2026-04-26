@@ -28,12 +28,16 @@ The Chargeback Defender samples are from a live product built and shipped in 9 d
 
 ## What you'll find
 
-Below is a quick guide to the kinds of materials included in this repo and what each set is meant to show.
+This repo contains practical work samples focused on CRM operations, data quality, workflow control, AI-assisted review, and business process documentation.
 
-- Chargeback Defender artifacts: decision calculator, dispute tracker with rate monitoring, evidence assembly guide, test cases, project conventions, and schema documentation - [Systems/Chargeback-Defender](Systems/Chargeback-Defender)
-- Relocation Roadmaps artifacts: project summary, reviewed guide sections, evaluation scorecards, workflow notes, redacted prompt excerpts, and the new post-intake routing workflow showing HubSpot, Zapier, Google Sheets, and Gmail working together - [Systems/Relocation-Roadmaps](Systems/Relocation-Roadmaps)
-- AI audit workflow artifacts: structured outputs (TSV and JSON) and review tracking across Sheets, Zapier, and Notion
-- QA artifacts: test plans, test cases, and sample bug reports
-- AI workflow examples: evaluation scorecards and reviewed guide sections
-- Prompt system excerpts: redacted prompt templates used to produce structured output
-- Systems notes: brief documentation of live automations
+- **Chargeback Defender:** operational kit for e-commerce dispute handling, including a decision calculator, dispute tracker, evidence assembly guide, test cases, schema notes, and project conventions - [Systems/Chargeback-Defender](Systems/Chargeback-Defender)
+
+- **Relocation Roadmaps:** AI-assisted publishing operations system, including project summary, reviewed guide sections, evaluation scorecards, workflow notes, redacted prompt excerpts, and production QA documentation - [Systems/Relocation-Roadmaps](Systems/Relocation-Roadmaps)
+
+- **Salesforce workflow sample:** production control workflow for tracking source review, evidence review, section readiness, and QA status inside a CRM-style operating system - [Salesforce Production Control Workflow](Systems/Salesforce-Production-Control-Workflow)
+
+- **HubSpot workflow sample:** post-intake routing workflow showing how HubSpot, Zapier, Google Sheets, and Gmail can support lead routing, review queues, and follow-up operations - [HubSpot Post-Intake Routing Workflow](Systems/HubSpot-Post-Intake-Routing-Workflow)
+
+- **AI audit workflow:** structured review workflow using TSV/JSON outputs and tracking across Sheets, Zapier, and Notion.
+
+- **QA and documentation samples:** test plans, test cases, sample bug reports, workflow notes, and redacted prompt system excerpts.

@@ -1,0 +1,206 @@
+# Salesforce Production Control Workflow - Relocation Roadmaps
+
+## Overview
+
+This project shows a Salesforce workflow built for a real Relocation Roadmaps production process.
+
+The sample workflow uses the Chiang Mai guide for the Thailand Relocation Guide. This is not a fake sales pipeline. It is a small Salesforce control system for tracking source review, evidence review, and section writing readiness in an AI-assisted publishing process.
+
+## Business Problem
+
+Relocation Roadmaps uses a structured production process with several handoffs.
+
+1. The Source Builder creates a city-specific Source Packet.
+2. The Data Harvester turns approved sources into an Evidence Pack.
+3. The Section Writer drafts from approved evidence only.
+4. QA checks confirm that source rules, evidence rules, number handling, and writing rules are followed before publishing.
+
+That process needs control points. Without them, it is too easy for weak sources, missing evidence, unsupported numbers, or unclear handoffs to slip through.
+
+## Salesforce Solution
+
+I built a small Salesforce app called **RR Production Control** to track the workflow from guide-level status through source QA, evidence QA, and section-level writing readiness.
+
+The Salesforce build includes:
+
+- Custom app
+- Parent object for each city guide production run
+- Child QA objects tied to the parent guide record
+- Custom fields for readiness checks, gate status, risk level, and QA notes
+- List views for operational tracking
+- Reports and dashboard for production visibility
+
+## Workflow Model
+
+City Guide Production Record
+
+- Source Packet QA
+- Evidence Pack QA
+- Section Draft Readiness
+
+## Custom Objects
+
+## City Guide Production Record
+
+Represents one complete city guide production run.
+
+Example record:
+
+`Chiang Mai - Full Guide - April 2026`
+
+Key fields:
+
+- City
+- Country
+- Product
+- City ID
+- Guide Type
+- Current Stage
+- Overall Status
+- Risk Level
+- Ready for Next Step
+
+## Source Packet QA
+
+Tracks whether the Source Builder output is ready for the Data Harvester.
+
+Key fields:
+
+- Source Count
+- Non-Community Sources Count
+- Section 07 Gate Status
+- Source Mix Status
+- Section Coverage Status
+- Weak Sections Present
+- Ready for Data Harvester
+- Source Packet Risk Level
+- QA Notes
+
+## Evidence Pack QA
+
+Tracks whether the Evidence Pack follows the Data Harvester rules.
+
+Key fields:
+
+- Exact Numbers Preserved
+- No Outside Facts Added
+- Access Failures Recorded
+- Rental Sampling Completed
+- Grocery Extraction Completed
+- Section 07 Status
+- Readiness Matrix Status
+- Ready for Section Writing
+- Evidence Pack Risk Level
+- QA Notes
+
+## Section Draft Readiness
+
+Tracks whether an individual guide section is ready for writing.
+
+Example record:
+
+`Chiang Mai Section 07 Readiness - April 2026`
+
+Key fields:
+
+- Section Name
+- Writer Lane
+- Required Inputs Present
+- Draft Status
+- QA Status
+- Unsupported Claims Found
+- Source IDs Removed
+- Publish Ready
+- QA Notes
+
+## Why Section 07 Was Used
+
+Section 07 - Budget & Cost of Living was used as the sample section because it has the strictest evidence requirements.
+
+This section has to handle:
+
+- Exact numbers
+- Cost anchors
+- Monthly totals
+- Rental sampling
+- Grocery extraction
+- Source reliability
+- Unsupported assumptions
+
+That makes it a good Salesforce test case. A simple status field would not be enough. The workflow needs real gates.
+
+## Screenshots
+
+## 01 - Production Control Dashboard
+
+![RR Production Control Dashboard](Screenshots/Salesforce-Production-Control/01-salesforce-rr-production-control-dashboard.png)
+
+Shows the main Salesforce dashboard for guide status, Source Packet QA, Evidence Pack QA, and Section Draft Readiness.
+
+## 02 - Active Guide Production List View
+
+![Active Guide Production List View](Screenshots/Salesforce-Production-Control/02-salesforce-active-guide-production-list-view.png)
+
+Shows the active guide production record with status columns for stage, overall status, risk level, and next-step readiness.
+
+## 03 - City Guide Related Records
+
+![City Guide Related Records](Screenshots/Salesforce-Production-Control/03-salesforce-city-guide-related-records-chiang-mai.png)
+
+Shows the parent Chiang Mai guide record with related child records for Source Packet QA, Evidence Pack QA, and Section Draft Readiness.
+
+## 04 - Source Packet QA Custom Fields
+
+![Source Packet QA Custom Fields](Screenshots/Salesforce-Production-Control/04-salesforce-custom-object-fields-source-packet-qa.png)
+
+Shows the custom Salesforce fields created for Source Packet QA tracking.
+
+## 05 - Source Packet QA Record
+
+![Source Packet QA Record](Screenshots/Salesforce-Production-Control/05-salesforce-source-packet-qa-record-chiang-mai.png)
+
+Shows the completed Source Packet QA record for Chiang Mai, including source count, Section 07 gate status, source mix status, coverage status, and Data Harvester readiness.
+
+## 06 - Evidence Pack QA Record
+
+![Evidence Pack QA Record](Screenshots/Salesforce-Production-Control/06-salesforce-evidence-pack-qa-record-chiang-mai.png)
+
+Shows the completed Evidence Pack QA record, including exact-number preservation, outside-fact control, sampling checks, and section-writing readiness.
+
+## 07 - Section 07 Draft Readiness Record
+
+![Section 07 Draft Readiness Record](Screenshots/Salesforce-Production-Control/07-salesforce-section-07-draft-readiness-chiang-mai.png)
+
+Shows the section-level readiness record for Chiang Mai Section 07 - Budget & Cost of Living.
+
+## What This Demonstrates
+
+This project demonstrates practical Salesforce Admin skills in a real operations context.
+
+Skills shown:
+
+- Custom app setup
+- Custom object creation
+- Parent-child object relationships
+- Custom fields and picklists
+- Page layouts
+- List views
+- Reports
+- Dashboard setup
+- Workflow and status design
+- QA and handoff tracking
+- Production control for AI-assisted content workflows
+
+## Why This Matters
+
+Salesforce is usually shown as a sales pipeline tool. This project uses it differently.
+
+Here, Salesforce acts as a production control system for an AI-assisted publishing workflow. It tracks whether each stage is ready before the next person or process starts work.
+
+That matters because AI-assisted work still needs human review, source control, evidence discipline, and clear handoff rules.
+
+## Status
+
+Portfolio demonstration build complete.
+
+This is a working Salesforce configuration using sample records from the Chiang Mai guide production process.

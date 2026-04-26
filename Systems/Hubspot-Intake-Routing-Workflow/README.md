@@ -30,17 +30,17 @@ Shows the Zapier paths that route contacts based on intake completeness.
 
 ![Zapier Routing Workflow](Screenshots/02-zap-overview.png)
 
-### HubSpot Contact Fields
-
-Shows the HubSpot fields used to collect and review intake details.
-
-![HubSpot Contact Fields](Screenshots/01-hubspot-contact-fields.png)
-
 ### Google Sheets Review Queue
 
 Shows the Google Sheets queue created by the workflow.
 
 ![Google Sheets Review Queue](Screenshots/03-google-sheets-log.png)
+
+### HubSpot Contact Fields
+
+Shows the HubSpot fields used to collect and review intake details.
+
+![HubSpot Contact Fields](Screenshots/01-hubspot-contact-fields.png)
 
 ### Zapier Workflow List
 

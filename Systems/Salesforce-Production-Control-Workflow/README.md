@@ -139,7 +139,7 @@ Shows the Salesforce dashboard with guide status, Source Packet QA, Evidence Pac
 
 ## 02 - Active Guide Production Records
 
-![Active Guide Production Records](Screenshots/02.png)
+![Active Guide Production Records](Screenshots/%20%20%20%2002.png)
 
 Shows the active guide production list view with the Chiang Mai guide record, current stage, overall status, readiness, and risk level.
 

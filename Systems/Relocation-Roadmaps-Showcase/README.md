@@ -11,6 +11,37 @@ Relocation Roadmaps is a structured content production system for creating reloc
 
 I built this system to turn country, city, visa, healthcare, housing, finance, and lifestyle research into guide sections that are clear, consistent, source-aware, and ready for review.
 
+## What This Project Shows
+
+This project shows practical AI operations work across content production, prompt design, quality control, structured review, and workflow documentation.
+
+It includes examples of:
+
+- AI-assisted guide section production
+- Custom writer prompts and review prompts
+- Red team review for quality, consistency, and risk
+- Structured data pack and evidence ledger usage
+- Repeatable QA and audit workflows
+- Production-ready guide section samples
+- Human-in-the-loop editing and final review
+
+## Why It Matters
+
+Relocation content is hard to get right. It combines personal decision-making with information that changes often, including visas, healthcare access, tax exposure, banking, housing, residency rules, and local quality of life.
+
+This system is not built to generate generic AI travel content. It is built to control the production process. AI helps organize, draft, review, and improve the material, but humans stay responsible for judgment, accuracy, and final publishing decisions.
+
+## System Overview
+
+The Relocation Roadmaps workflow uses a modular production process:
+
+1. Build or update the country and city data pack
+2. Generate guide sections using structured writer prompts
+3. Run QA checks against formatting, tone, structure, and source expectations
+4. Red team sections for unclear claims, weak logic, missing context, or reader risk
+5. Revise into production-ready guide copy
+6. Maintain reusable prompts, examples, and section rules for future guides
+
 ## Featured Artifacts
 
 ### 1. Guide Cover Sample
@@ -73,37 +104,6 @@ The fact checker and red team auditor is designed to protect the reader from fin
   <img src="Screenshots/fact_checker_%26_red_team_auditor.png" alt="Fact checker and Red Team Auditor" width="75%">
 </p>
 <p>&nbsp;</p>
-
-## What This Project Shows
-
-This project shows practical AI operations work across content production, prompt design, quality control, structured review, and workflow documentation.
-
-It includes examples of:
-
-- AI-assisted guide section production
-- Custom writer prompts and review prompts
-- Red team review for quality, consistency, and risk
-- Structured data pack and evidence ledger usage
-- Repeatable QA and audit workflows
-- Production-ready guide section samples
-- Human-in-the-loop editing and final review
-
-## Why It Matters
-
-Relocation content is hard to get right. It combines personal decision-making with information that changes often, including visas, healthcare access, tax exposure, banking, housing, residency rules, and local quality of life.
-
-This system is not built to generate generic AI travel content. It is built to control the production process. AI helps organize, draft, review, and improve the material, but humans stay responsible for judgment, accuracy, and final publishing decisions.
-
-## System Overview
-
-The Relocation Roadmaps workflow uses a modular production process:
-
-1. Build or update the country and city data pack
-2. Generate guide sections using structured writer prompts
-3. Run QA checks against formatting, tone, structure, and source expectations
-4. Red team sections for unclear claims, weak logic, missing context, or reader risk
-5. Revise into production-ready guide copy
-6. Maintain reusable prompts, examples, and section rules for future guides
 
 ## My Role
 

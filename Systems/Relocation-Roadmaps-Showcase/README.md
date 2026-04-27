@@ -74,15 +74,7 @@ A separate work sample shows the data auditor workflow used to review AI-generat
 
 [View the AI Guide Audit Workflow](https://github.com/dbfl2026/db-work-samples/tree/main/Systems/AI-Guide-Audit-Workflow)
 
-### 4. Red Team Review Prompt
-
-This prompt is used to challenge guide sections before publication. It checks for unsupported claims, vague language, missing caveats, inconsistent structure, and areas where a reader could be misled.
-
-<p align="center">
-  <img src="Screenshots/fact_checker_%26_red_team_auditor.png" alt="fact_checker_%26_red_team_auditor" width="75%">
-</p>
-
-### 5. Source & Data Integrity Auditor
+### 4. Source & Data Integrity Auditor
 
 The custom auditor reviews guides, tables, and source lists before publishing. It flags missing information, source gaps, outdated claims, citation problems, internal inconsistencies, and risk areas without rewriting the content.
 
@@ -90,7 +82,7 @@ The custom auditor reviews guides, tables, and source lists before publishing. I
   <img src="Screenshots/source_data_%26_integrity_auditor.png" alt="Source data %26 integrity auditor" width="75%">
 </p>
 
-### 6. Fact Checker & Red Team Auditor
+### 5. Fact Checker & Red Team Auditor
 
 The fact checker and red team auditor is designed to protect the reader from financial loss, legal rejection, logistical failure, or misleading claims caused by outdated, incorrect, vague, or non-executable information.
 

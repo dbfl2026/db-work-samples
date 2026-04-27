@@ -7,9 +7,9 @@
 - **Data/file formats:** JSON, TSV, Markdown
 - **Version control:** GitHub
 
-Relocation Roadmaps is a structured content production system for creating high-quality relocation and retirement guides using AI-assisted writing, human review, data auditing, and reusable production workflows.
+Relocation Roadmaps is a structured content production system for creating relocation and retirement guides with AI-assisted writing, human review, data auditing, and reusable production workflows.
 
-This showcase highlights how I designed a repeatable system for turning raw country, city, visa, healthcare, housing, finance, and lifestyle research into polished guide sections that are consistent, source-aware, and production-ready.
+I built this system to turn country, city, visa, healthcare, housing, finance, and lifestyle research into guide sections that are clear, consistent, source-aware, and ready for review.
 
 <p align="center">
   <img src="Screenshots/01-phuket_guide_cover.png" alt="Phuket relocation guide cover" width="75%">
@@ -17,7 +17,7 @@ This showcase highlights how I designed a repeatable system for turning raw coun
 
 ## What This Project Shows
 
-This project demonstrates practical AI operations work across content systems, prompt design, quality control, structured review, and production workflows.
+This project shows practical AI operations work across content production, prompt design, quality control, structured review, and workflow documentation.
 
 It includes examples of:
 
@@ -31,9 +31,9 @@ It includes examples of:
 
 ## Why It Matters
 
-Relocation content is complex because it combines personal decision-making with information that changes often, including visas, healthcare access, tax exposure, banking, housing, residency rules, and local quality of life.
+Relocation content is hard to get right. It combines personal decision-making with information that changes often, including visas, healthcare access, tax exposure, banking, housing, residency rules, and local quality of life.
 
-The goal of this system is not to generate generic AI travel content. The goal is to create a controlled production workflow where AI helps organize, draft, review, and improve guide material while humans remain responsible for judgment, accuracy, and final publishing decisions.
+This system is not built to generate generic AI travel content. It is built to control the production process. AI helps organize, draft, review, and improve the material, but humans stay responsible for judgment, accuracy, and final publishing decisions.
 
 ## System Overview
 
@@ -54,7 +54,7 @@ The Relocation Roadmaps workflow uses a modular production process:
 
 ### 1. Production-Ready Guide Section Sample
 
-This sample shows a completed guide section after structured drafting, editing, and review. The Section 07 budget sample demonstrates how the system handles monthly cost bands, numeric anchors, source-aware claims, and reader-facing guidance.
+This sample shows a completed guide section after structured drafting, editing, and review. The Section 07 budget sample shows how the system handles monthly cost bands, numeric anchors, source-aware claims, and reader-facing guidance.
 
 Suggested file:
 
@@ -62,7 +62,7 @@ Suggested file:
 
 ### 2. Evidence Ledger Sample
 
-The evidence ledger shows how source material is organized before it is used in guide production. It tracks source type, source class, recency, access status, numeric anchors, page evidence, and notes so the writing process has a clear evidence base.
+The evidence ledger shows how source material is organized before it is used in guide production. It tracks source type, source class, recency, access status, numeric anchors, page evidence, and notes, so the writing process has a clear evidence base.
 
 <p align="center">
   <img src="Screenshots/evidence_leger_sample.png" alt="Evidence ledger sample" width="75%">
@@ -98,6 +98,8 @@ The work combines product thinking, content operations, AI workflow design, prom
 
 ## Key Takeaway
 
-Relocation Roadmaps is an example of using AI as part of a controlled production system, not as a one-click content generator.
+Relocation Roadmaps shows AI being used inside a controlled production system, not as a one-click content generator.
+
+The value is in the workflow: structured inputs, reusable prompts, review layers, risk checks, and production standards that make the output more consistent and trustworthy over time.
 
 The value is in the workflow: structured inputs, reusable prompts, review layers, risk checks, and production standards that make the output more consistent and trustworthy over time.

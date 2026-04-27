@@ -64,6 +64,9 @@ Suggested file:
 
 The evidence ledger shows how source material is organized before it is used in guide production. It tracks source type, source class, recency, access status, numeric anchors, page evidence, and notes so the writing process has a clear evidence base.
 
+<p align="center">
+  <img src="Screenshots/evidence_leger_sample.png" alt="Evidence leger sample" width="75%">
+</p>
 ![Evidence ledger sample](Screenshots/evidence_leger_sample.png)
 
 ### 3. AI Guide Audit Workflow

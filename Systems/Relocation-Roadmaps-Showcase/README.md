@@ -11,7 +11,9 @@ Relocation Roadmaps is a structured content production system for creating high-
 
 This showcase highlights how I designed a repeatable system for turning raw country, city, visa, healthcare, housing, finance, and lifestyle research into polished guide sections that are consistent, source-aware, and production-ready.
 
-![Phuket relocation guide cover](Screenshots/01-phuket_guide_cover.png)
+<p align="center">
+  <img src="Screenshots/01-phuket_guide_cover.png" alt="Phuket relocation guide cover" width="75%">
+</p>
 
 ## What This Project Shows
 

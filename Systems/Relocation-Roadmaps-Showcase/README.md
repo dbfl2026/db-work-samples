@@ -33,12 +33,8 @@ The workflow shows how raw research moves through structured data gathering, gui
 
 This sample shows a completed guide section after structured drafting, editing, and review. The Section 07 budget sample shows how the system handles monthly cost bands, numeric anchors, source-aware claims, and reader-facing guidance.
 
-Suggested file:
-
-`samples/section-07-production-ready-sample.md`
-
 <p align="center">
-  <img src="Screenshots/chiang_mai_digital%20_nomad.png" alt="Chiang Mai digital nomad guide section sample" width="75%">
+  <img src="Screenshots/chiang_mai_digital _nomad.png" alt="Chiang Mai digital nomad guide section sample" width="75%">
 </p>
 
 ### 4. Evidence Ledger Sample

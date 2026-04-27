@@ -72,16 +72,15 @@ The evidence ledger shows how source material is organized before it is used in 
 
 A separate work sample shows the data auditor workflow used to review AI-generated guide content against structured source material.
 
-evidence_leger_sample
 [View the AI Guide Audit Workflow](https://github.com/dbfl2026/db-work-samples/tree/main/Systems/AI-Guide-Audit-Workflow)
 
 ### 4. Red Team Review Prompt
 
 This prompt is used to challenge guide sections before publication. It checks for unsupported claims, vague language, missing caveats, inconsistent structure, and areas where a reader could be misled.
 
-Suggested file:
-
-`prompts/red-team-review-prompt.md`
+<p align="center">
+  <img src="Screenshots/fact_checker_%26_red_team_auditor.png" alt="fact_checker_%26_red_team_auditor" width="75%">
+</p>
 
 ### 5. Writer Prompt Sample
 
@@ -95,6 +94,9 @@ Suggested file:
 
 The custom auditor reviews guides, tables, and source lists before publishing. It flags missing information, source gaps, outdated claims, citation problems, internal inconsistencies, and risk areas without rewriting the content.
 
+<p align="center">
+  <img src="Screenshots/fact_checker_%26_red_team_auditor.png" alt="fact_checker_%26_red_team_auditor" width="75%">
+</p>
 ![Source and Data Integrity Auditor configuration](Screenshots/source_data_&_integrity_auditor.png)
 
 ### 7. Fact Checker & Red Team Auditor

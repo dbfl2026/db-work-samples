@@ -86,7 +86,6 @@ The evidence ledger shows how source material is organized before it is used in 
 A separate work sample shows the data auditor workflow used to review AI-generated guide content against structured source material.
 
 [View the AI Guide Audit Workflow](https://github.com/dbfl2026/db-work-samples/tree/main/Systems/AI-Guide-Audit-Workflow)
-<p>&nbsp;</p>
 
 ### 6. Source & Data Integrity Auditor
 

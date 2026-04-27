@@ -17,11 +17,11 @@ I built this system to turn country, city, visa, healthcare, housing, finance, a
 
 The guide cover makes the project visible as a real product, not just an internal workflow or documentation exercise.
 
-
+<p>&nbsp;</p>
 <p align="center">
   <img src="Screenshots/01-phuket_guide_cover.png" alt="Phuket relocation guide cover" width="75%">
 </p>
-
+<p>&nbsp;</p>
 
 ### 2. Production Workflow
 
@@ -30,7 +30,7 @@ The workflow shows how raw research moves through structured data gathering, gui
 <p align="center">
   <img src="Screenshots/rr-production_workflow.png" alt="Relocation Roadmaps production workflow" width="75%">
 </p>
-
+<p>&nbsp;</p>
 
 ### 3. Production-Ready Guide Section Sample
 
@@ -39,7 +39,7 @@ This sample shows a the first page of a completed guide section after structured
 <p align="center">
   <img src="Screenshots/chiang_mai_digital _nomad.png" alt="Chiang Mai digital nomad guide section sample" width="75%">
 </p>
-
+<p>&nbsp;</p>
 
 ### 4. Evidence Ledger Sample
 
@@ -48,7 +48,7 @@ The evidence ledger shows how source material is organized before it is used in 
 <p align="center">
   <img src="Screenshots/evidence_ledger_sample.png" alt="Evidence ledger sample" width="75%">
 </p>
-
+<p>&nbsp;</p>
 
 ### 5. AI Guide Audit Workflow
 
@@ -63,7 +63,7 @@ The custom auditor reviews guides, tables, and source lists before publishing. I
 <p align="center">
   <img src="Screenshots/source_data_%26_integrity_auditor.png" alt="Source data and integrity auditor" width="75%">
 </p>
-
+<p>&nbsp;</p>
 
 ### 7. Fact Checker & Red Team Auditor
 
@@ -72,7 +72,7 @@ The fact checker and red team auditor is designed to protect the reader from fin
 <p align="center">
   <img src="Screenshots/fact_checker_%26_red_team_auditor.png" alt="Fact checker and Red Team Auditor" width="75%">
 </p>
-
+<p>&nbsp;</p>
 
 ## What This Project Shows
 

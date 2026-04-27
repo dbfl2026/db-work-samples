@@ -65,14 +65,14 @@ Suggested file:
 The evidence ledger shows how source material is organized before it is used in guide production. It tracks source type, source class, recency, access status, numeric anchors, page evidence, and notes so the writing process has a clear evidence base.
 
 <p align="center">
-  <img src="Screenshots/evidence_leger_sample.png" alt="Evidence leger sample" width="75%">
+  <img src="Screenshots/evidence_leger_sample.png" alt="Evidence ledger sample" width="75%">
 </p>
-![Evidence ledger sample](Screenshots/evidence_leger_sample.png)
 
 ### 3. AI Guide Audit Workflow
 
 A separate work sample shows the data auditor workflow used to review AI-generated guide content against structured source material.
 
+evidence_leger_sample
 [View the AI Guide Audit Workflow](https://github.com/dbfl2026/db-work-samples/tree/main/Systems/AI-Guide-Audit-Workflow)
 
 ### 4. Red Team Review Prompt

@@ -11,16 +11,18 @@ Relocation Roadmaps is a structured content production system for creating high-
 
 This showcase highlights how I designed a repeatable system for turning raw country, city, visa, healthcare, housing, finance, and lifestyle research into polished guide sections that are consistent, source-aware, and production-ready.
 
+![Phuket relocation guide cover](Screenshots/01-phuket_guide_cover.png)
+
 ## What This Project Shows
 
-This project demonstrates practical AI operations work across content systems, prompt design, quality control, and structured production workflows.
+This project demonstrates practical AI operations work across content systems, prompt design, quality control, structured review, and production workflows.
 
 It includes examples of:
 
 - AI-assisted guide section production
 - Custom writer prompts and review prompts
 - Red team review for quality, consistency, and risk
-- Structured data pack usage
+- Structured data pack and evidence ledger usage
 - Repeatable QA and audit workflows
 - Production-ready guide section samples
 - Human-in-the-loop editing and final review
@@ -42,23 +44,31 @@ The Relocation Roadmaps workflow uses a modular production process:
 5. Revise into production-ready guide copy
 6. Maintain reusable prompts, examples, and section rules for future guides
 
+![Relocation Roadmaps production workflow](Screenshots/rr-workflow.png)
+
 ## Featured Artifacts
 
-### 1. AI Guide Audit Workflow
+### 1. Production-Ready Guide Section Sample
 
-A separate work sample shows the data auditor workflow used to review AI-generated guide content against structured source material.
-
-[View the AI Guide Audit Workflow](https://github.com/dbfl2026/db-work-samples/tree/main/Systems/AI-Guide-Audit-Workflow)
-
-### 2. Production-Ready Guide Section Sample
-
-This sample shows a completed guide section after structured drafting, editing, and review.
+This sample shows a completed guide section after structured drafting, editing, and review. The Section 07 budget sample demonstrates how the system handles monthly cost bands, numeric anchors, source-aware claims, and reader-facing guidance.
 
 Suggested file:
 
 `samples/section-07-production-ready-sample.md`
 
-### 3. Red Team Review Prompt
+### 2. Evidence Ledger Sample
+
+The evidence ledger shows how source material is organized before it is used in guide production. It tracks source type, source class, recency, access status, numeric anchors, page evidence, and notes so the writing process has a clear evidence base.
+
+![Evidence ledger sample](Screenshots/evidence_leger_sample.png)
+
+### 3. AI Guide Audit Workflow
+
+A separate work sample shows the data auditor workflow used to review AI-generated guide content against structured source material.
+
+[View the AI Guide Audit Workflow](https://github.com/dbfl2026/db-work-samples/tree/main/Systems/AI-Guide-Audit-Workflow)
+
+### 4. Red Team Review Prompt
 
 This prompt is used to challenge guide sections before publication. It checks for unsupported claims, vague language, missing caveats, inconsistent structure, and areas where a reader could be misled.
 
@@ -66,7 +76,7 @@ Suggested file:
 
 `prompts/red-team-review-prompt.md`
 
-### 4. Writer Prompt Sample
+### 5. Writer Prompt Sample
 
 This sample shows how a guide section is generated from structured input while maintaining a consistent guide voice, format, and reader focus.
 
@@ -74,17 +84,17 @@ Suggested file:
 
 `prompts/section-writer-prompt-sample.md`
 
-### 5. Before and After Example
+### 6. Source & Data Integrity Auditor
 
-This example shows how rough or structured input becomes polished guide copy through the production workflow.
+The custom auditor reviews guides, tables, and source lists before publishing. It flags missing information, source gaps, outdated claims, citation problems, internal inconsistencies, and risk areas without rewriting the content.
 
-Suggested file:
+![Source and Data Integrity Auditor configuration](Screenshots/source_data_&_integrity_auditor.png)
 
-`samples/before-after-guide-section-example.md`
+### 7. Fact Checker & Red Team Auditor
 
-## Production Workflow
+The fact checker and red team auditor is designed to protect the reader from financial loss, legal rejection, logistical failure, or misleading claims caused by outdated, incorrect, vague, or non-executable information.
 
-(Screenshots/rr_workflow.png)
+![Fact Checker and Red Team Auditor prompt](Screenshots/fact_checker_&_red_team_auditor.png)
 
 ## My Role
 

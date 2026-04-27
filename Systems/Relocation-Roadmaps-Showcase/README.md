@@ -44,7 +44,7 @@ The Relocation Roadmaps workflow uses a modular production process:
 5. Revise into production-ready guide copy
 6. Maintain reusable prompts, examples, and section rules for future guides
 
-![Relocation Roadmaps production workflow](Screenshots/rr-workflow.png)
+![Relocation Roadmaps production workflow](Screenshots/rr-production_workflow.png)
 
 ## Featured Artifacts
 

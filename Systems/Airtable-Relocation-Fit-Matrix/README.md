@@ -2,15 +2,15 @@
 
 ## Overview
 
-This project shows an Airtable decision-support system built for Relocation Roadmaps.
+I built this Airtable system to organize relocation fit research across countries, cities, personas, and decision factors.
 
-The system helps compare relocation fit across countries, cities, personas, and decision factors. It gives relocators a clearer way to review tradeoffs, must-check issues, and evidence-backed fit signals before they make a decision.
+The system helps relocators compare tradeoffs, must-check issues, and evidence-backed fit signals before making a relocation decision.
 
 It is not a recommendation engine. It does not rank countries or cities. It does not assign final scores. It does not tell someone where to move.
 
-The point is simpler: organize the decision context so a person can compare options without losing track of what matters.
+The goal is to make complex relocation research easier to compare without turning it into a black-box scoring tool.
 
-## What This Project Shows
+## Build Highlights
 
 This Airtable build demonstrates practical AI operations work, structured data design, and human review.
 

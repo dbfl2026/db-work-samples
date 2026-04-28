@@ -17,13 +17,13 @@ My focus: build systems that are clear, accurate, traceable, testable, and usefu
 
 ## What these samples demonstrate
 
-AI-assisted workflow design using real project inputs  
-CRM workflow thinking across Salesforce, HubSpot, and Airtable  
-Data quality controls, including standardization, required fields, lookup fields, deduplication, and naming conventions  
-QA checks that reduce drift, rework, and unclear handoffs  
-Evidence tracking, review queues, and human-in-the-loop validation  
-Troubleshooting, root-cause analysis, and documentation of fixes  
-Practical systems that can be understood, tested, and maintained
+- AI-assisted workflow design using real project inputs  
+- CRM workflow thinking across Salesforce, HubSpot, and Airtable  
+- Data quality controls, including standardization, required fields, lookup fields, deduplication, and naming conventions  
+- QA checks that reduce drift, rework, and unclear handoffs  
+- Evidence tracking, review queues, and human-in-the-loop validation  
+- Troubleshooting, root-cause analysis, and documentation of fixes  
+- Practical systems that can be understood, tested, and maintained
 
 ## Project guide
 

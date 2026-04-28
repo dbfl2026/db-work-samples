@@ -15,6 +15,7 @@ My focus: build systems that are clear, accurate, traceable, testable, and usefu
 - HubSpot CRM - messy data import and cleanup: [HubSpot-CRM-Data-Cleanup](Systems/HubSpot-CRM-Data-Cleanup)
 - Chargeback Defender - e-commerce dispute operations kit: [Chargeback-Defender](Systems/Chargeback-Defender)
 
+&nbsp;
 ## What these samples demonstrate
 
 - AI-assisted workflow design using real project inputs  
@@ -25,6 +26,7 @@ My focus: build systems that are clear, accurate, traceable, testable, and usefu
 - Troubleshooting, root-cause analysis, and documentation of fixes  
 - Practical systems that can be understood, tested, and maintained
 
+&nbsp;
 ## Project guide
 
 ### Relocation Roadmaps

@@ -55,8 +55,6 @@ Tradeoff Level: Medium
   <img src="Screenshots/airtable_fit_matrix_demo_us_retiree_healthcare.png" alt="Airtable Fit Matrix Interface demo for US Retiree Thailand healthcare access" width="90%">
 </p>
 
-<br>
-
 ## Backend Matrix View
 
 The backend view shows the filtered Thailand city matrix used to review records before they appear in the demo Interface.

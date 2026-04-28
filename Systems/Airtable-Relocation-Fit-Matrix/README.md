@@ -50,6 +50,7 @@ Factor: Healthcare access
 Fit Signal: Possible Fit  
 Tradeoff Level: Medium
 
+<&nbsp;>
 <p align="center">
   <img src="Screenshots/airtable_fit_matrix_demo_us_retiree_healthcare.png" alt="Airtable Fit Matrix Interface demo for US Retiree Thailand healthcare access" width="90%">
 </p>
@@ -60,6 +61,7 @@ Tradeoff Level: Medium
 
 The backend view shows the filtered Thailand city matrix used to review records before they appear in the demo Interface.
 
+<&nbsp;>
 <p align="center">
   <img src="Screenshots/airtable_thailand_city_fit_matrix_view.png" alt="Airtable Thailand city fit matrix backend view" width="90%">
 </p>

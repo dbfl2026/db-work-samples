@@ -28,15 +28,19 @@ My focus: build systems that are clear, accurate, traceable, testable, and usefu
 
 ### Relocation Roadmaps
 
-A real AI-assisted publishing operations project showing source review, evidence review, guide production, workflow QA, structured evaluation, and production documentation.
+Real AI-assisted publishing operations project showing source review, evidence review, guide production, workflow QA, structured evaluation, and production documentation.
 
 ### Salesforce workflow samples
 
-CRM-style workflow samples showing production control, source review, evidence review, section readiness, QA status tracking, and prevention-focused data quality controls.
+Salesforce workflow samples showing production control, source review, evidence review, section readiness, QA status tracking, and prevention-focused CRM data quality controls.
 
 ### HubSpot workflow samples
 
-HubSpot workflow samples showing post-intake routing, review queues, follow-up operations, messy data cleanup, CRM field hygiene, and lightweight follow-up routing.
+HubSpot workflow samples showing post-intake routing, review queues, CRM field hygiene, messy data import cleanup, and lightweight follow-up operations.
+
+### Airtable Relocation Fit Matrix
+
+Airtable decision-support system showing persona-based relocation fit comparison, linked evidence notes, lookup-driven AI inputs, AI draft fields, filtered review views, and a portfolio demo Interface.
 
 ### AI audit workflow
 

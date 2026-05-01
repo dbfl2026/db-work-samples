@@ -7,14 +7,14 @@ My focus is building systems that are clear, accurate, traceable, testable, and 
 ## Start Here
 
 - Relocation Roadmaps - production system and guide workflow: [Relocation-Roadmaps](Relocation-Roadmaps)
-- Salesforce Production Control Workflow: [Salesforce-Production-Control-Workflow](Salesforce-Production-Control-Workflow)
-- HubSpot CRM - post-intake routing workflow: [Hubspot-Intake-Routing-Workflow](Hubspot-Intake-Routing-Workflow)
-- Airtable Relocation Fit Matrix - decision-support system: [Airtable-Relocation-Fit-Matrix](Airtable-Relocation-Fit-Matrix)
-- AI-assisted Relocation Guide Audit Workflow: [AI-Guide-Audit-Workflow](AI-Guide-Audit-Workflow)
-- Salesforce CRM Data Quality - prevention-focused admin controls: [Salesforce-CRM-Data-Quality](Salesforce-CRM-Data-Quality)
-- HubSpot CRM - messy data import and cleanup: [HubSpot-CRM-Data-Cleanup](HubSpot-CRM-Data-Cleanup)
-- Chargeback Defender - e-commerce dispute operations kit: [Chargeback-Defender](Chargeback-Defender)
-
+- Salesforce Production Control Workflow: [Salesforce-Production-Control-Workflow](Systems/Salesforce-Production-Control-Workflow)
+- HubSpot CRM - post-intake routing workflow: [Hubspot-Intake-Routing-Workflow](Systems/Hubspot-Intake-Routing-Workflow)
+- Airtable Relocation Fit Matrix - decision-support system: [Airtable-Relocation-Fit-Matrix](Systems/Airtable-Relocation-Fit-Matrix)
+- AI-assisted Relocation Guide Audit Workflow: [AI-Guide-Audit-Workflow](Systems/AI-Guide-Audit-Workflow)
+- Salesforce CRM Data Quality - prevention-focused admin controls: [Salesforce-CRM-Data-Quality](Systems/Salesforce-CRM-Data-Quality)
+- HubSpot CRM - messy data import and cleanup: [HubSpot-CRM-Data-Cleanup](Systems/HubSpot-CRM-Data-Cleanup)
+- Chargeback Defender - e-commerce dispute operations kit: [Chargeback-Defender](Systems/Chargeback-Defender)
+- 
 ## What These Samples Demonstrate
 
 - AI-assisted workflow design using real project inputs
